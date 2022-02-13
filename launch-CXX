@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export CCACHE_BASEDIR=/Users/xuzhongping/Desktop/Dev/myGithub/ccache
+export CCACHE_CPP2=true
+exec "/usr/local/bin/ccache" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++" "$@"
