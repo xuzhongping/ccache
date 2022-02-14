@@ -1,0 +1,13 @@
+dependencies: \
+  /Users/xuzhongping/Desktop/Dev/myGithub/ccache/src/storage/primary/PrimaryStorage_statistics.cpp \
+  config.h \
+  /Users/xuzhongping/Desktop/Dev/myGithub/ccache/src/storage/primary/PrimaryStorage.hpp \
+  src/Digest.hpp src/Util.hpp src/Stat.hpp src/core/wincompat.hpp \
+  src/util/Tokenizer.hpp src/assertions.hpp src/third_party/fmt/core.h \
+  src/third_party/nonstd/optional.hpp \
+  src/third_party/nonstd/string_view.hpp src/core/StatisticsCounters.hpp \
+  src/core/Statistic.hpp src/core/types.hpp src/storage/primary/util.hpp \
+  src/storage/primary/CacheFile.hpp src/storage/types.hpp src/Config.hpp \
+  src/NonCopyable.hpp src/core/Sloppiness.hpp src/core/Statistics.hpp \
+  src/fmtmacros.hpp src/FormatNonstdStringView.hpp \
+  src/third_party/fmt/format.h src/storage/primary/StatsFile.hpp

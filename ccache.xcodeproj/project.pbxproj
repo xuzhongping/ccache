@@ -1,0 +1,3135 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		12E14CD9A0AE42488F81474C /* check_format */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D92EC0F1F2904FBDB747969D /* Build configuration list for PBXAggregateTarget "check_format" */;
+			buildPhases = (
+				C6A7AC776DF3D20649019E4E /* Generate CMakeFiles/check_format */,
+			);
+			dependencies = (
+				945712858E1640D792518E7C /* PBXTargetDependency */,
+			);
+			name = check_format;
+			productName = check_format;
+		};
+		329168F3448243A6A9260BC0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1E99962C622D4CE7801E7FDF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B5811C6730AA1119BAFBEA25 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		3E865CA9C64D40F38385475B /* format */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F23E64361EF544B9B7A1673F /* Build configuration list for PBXAggregateTarget "format" */;
+			buildPhases = (
+				4835B109CDC37524F213CE7E /* Generate CMakeFiles/format */,
+			);
+			dependencies = (
+				D1D1B37E8BFD4861A8E5A6CD /* PBXTargetDependency */,
+			);
+			name = format;
+			productName = format;
+		};
+		749203D60A8B4411B58DD8C9 /* check */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5F38CBB8AD0D49D582F78B87 /* Build configuration list for PBXAggregateTarget "check" */;
+			buildPhases = (
+				88989C8F4A19CA44A9C892ED /* Generate CMakeFiles/check */,
+			);
+			dependencies = (
+				2DC27C5395D04885BD3554EF /* PBXTargetDependency */,
+				41DD3A1EE1914D2AB42EACC8 /* PBXTargetDependency */,
+				3F25135C5A21433D956FB107 /* PBXTargetDependency */,
+			);
+			name = check;
+			productName = check;
+		};
+		815E2CEF644C40B4A26ED29C /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48E0D79221934CCB9C821FB6 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DA84B611184A478DABA1788C /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		9E46C61650BA42D097CDD4DD /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0A441A204C46420091082241 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A45A5679682B45C09D5962E1 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		B15FD24D1D6A4E21A4BF2BF7 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C22687F94F954DB2823AFC82 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				95F0B418824007E8CC9D7318 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				90EC593C28E14390BE8045BA /* PBXTargetDependency */,
+				3C258824EB074651A2E33CAE /* PBXTargetDependency */,
+				5F4BD0BA546645FFACAE22FA /* PBXTargetDependency */,
+				168461D7E3704C92B6516262 /* PBXTargetDependency */,
+				CA446A883712404BB77EF67C /* PBXTargetDependency */,
+				D4648D1DAA114C4597E8A9A2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DFF8AEF079B544E191FE7A4B /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A8D55737FEC64ED79306F44E /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		008B8E0E4A8C482C98C7B514 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_cleanup.cpp */ = {isa = PBXBuildFile; fileRef = F5758CAC28E3411782E22B86 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_cleanup.cpp */; };
+		020E4259C9184B8CB6A9A645 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Util.cpp */ = {isa = PBXBuildFile; fileRef = FC5ACBB2A1E6400798D6F135 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Util.cpp */; };
+		0B8D056270AE4FF78E46BAA0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_AtomicFile.cpp */ = {isa = PBXBuildFile; fileRef = 2338054B7B9E4AD286E1F9CB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_AtomicFile.cpp */; };
+		0DD9AF0A5A5A4401A1DBAA61 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/string.cpp */ = {isa = PBXBuildFile; fileRef = A063F3DF2F94494592694488 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/string.cpp */; };
+		0F20564843DD45B6BB59E267 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Args.cpp */ = {isa = PBXBuildFile; fileRef = 5D23FECFF1A9451D98BA5828 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Args.cpp */; };
+		0F2F8ACCA8E64DC68357C5A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/TestUtil.cpp */ = {isa = PBXBuildFile; fileRef = 6E0C824C91D64DE689DC463F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/TestUtil.cpp */; };
+		11975A09B71146C19C28EC64 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Lockfile.cpp */ = {isa = PBXBuildFile; fileRef = 721B033066694F08A4EE39A9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Lockfile.cpp */; };
+		120009E9706B4F89B5768AE1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/Tokenizer.cpp */ = {isa = PBXBuildFile; fileRef = 84E6D67CB8B648E49B3E1141 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/Tokenizer.cpp */; };
+		122FC05B345E483AB2CCD0E2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/format.cpp */ = {isa = PBXBuildFile; fileRef = 2F1A79317A5B42EA8118766D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/format.cpp */; };
+		1513E051D9D84AA792F44FF1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/xxhash.c */ = {isa = PBXBuildFile; fileRef = 49FB32A5FA4B4FF7B15338FB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/xxhash.c */; };
+		1565231FCAA6436F838467FC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/hashutil.cpp */ = {isa = PBXBuildFile; fileRef = 706E8E0A041349F19D82A335 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/hashutil.cpp */; };
+		156EE2A4BA3B4711B51EC410 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/language.cpp */ = {isa = PBXBuildFile; fileRef = DFEC45DE1ED74376AA74626C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/language.cpp */; };
+		1627FAE85F86440F8BABDE02 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Lockfile.cpp */ = {isa = PBXBuildFile; fileRef = 7907D2B036F442F0A1BDA2C9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Lockfile.cpp */; };
+		1784F04969B44A75A657CD31 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_StatsFile.cpp */ = {isa = PBXBuildFile; fileRef = 7CDFADBCBD714065962DBC5F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_StatsFile.cpp */; };
+		1814CE8584D94688AC499038 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Fd.cpp */ = {isa = PBXBuildFile; fileRef = D639D2159A484C7DA2237B5A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Fd.cpp */; };
+		1AC4B2526E7B402583C9468B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/assertions.cpp */ = {isa = PBXBuildFile; fileRef = 5FD303BCDF184D0B95C5A649 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/assertions.cpp */; };
+		1DFD06CB289C41A8A76839EA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3.c */ = {isa = PBXBuildFile; fileRef = 5EA3CB8E6EB1487A8E0C7A41 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3.c */; };
+		1EEABF8D7BEF455886BF288C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/httplib.cpp */ = {isa = PBXBuildFile; fileRef = 13507106EEC2477185F62B2D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/httplib.cpp */; };
+		1F72C99AF00A47A9BB343DAB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_path.cpp */ = {isa = PBXBuildFile; fileRef = 1B4F8291A4DC43B48B2408CC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_path.cpp */; };
+		21A8AF8A24D94494A4EBA5AA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compopt.cpp */ = {isa = PBXBuildFile; fileRef = 868B50F862634A109D377C99 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compopt.cpp */; };
+		249DBFA729D54895A51C6B57 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/AtomicFile.cpp */ = {isa = PBXBuildFile; fileRef = A6908BFA46E441F8B45A240A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/AtomicFile.cpp */; };
+		25F1C68E0DE34CFB88E4B85B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F2F227F9CA52482384BAD94D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */; };
+		267169F8A2C64828A9C32C63 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Config.cpp */ = {isa = PBXBuildFile; fileRef = E05119128BCE44C79C9CD9FE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Config.cpp */; };
+		27A789B13CCC4F7BB3C8CAB5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_InodeCache.cpp */ = {isa = PBXBuildFile; fileRef = 14CAE275423B4A2CA2CDE71A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_InodeCache.cpp */; };
+		2AFCBF6584214AC2B0186D51 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/argprocessing.cpp */ = {isa = PBXBuildFile; fileRef = E79E87D04AA244598DF3C86F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/argprocessing.cpp */; };
+		2D00874D523C4AF6BF8E103B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/mainoptions.cpp */ = {isa = PBXBuildFile; fileRef = 569B997635F3450FBFAF6896 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/mainoptions.cpp */; };
+		2E16A09D98894251BE630FD5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/getopt_long.c */ = {isa = PBXBuildFile; fileRef = DBAC210261BF4BD19FF8D5F0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/getopt_long.c */; };
+		2F44A237EC934F488D0BC015 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultExtractor.cpp */ = {isa = PBXBuildFile; fileRef = 94A5DAC5B60646528C97976D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultExtractor.cpp */; };
+		321169141C23433E8B2DC2AF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compopt.cpp */ = {isa = PBXBuildFile; fileRef = C307D7C85AF0499586514043 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compopt.cpp */; };
+		325B0598198C4F58AA4018C1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Manifest.cpp */ = {isa = PBXBuildFile; fileRef = DB638657151A45E88B900B70 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Manifest.cpp */; };
+		335A6CC069EA497B92CB0F67 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullCompressor.cpp */ = {isa = PBXBuildFile; fileRef = FC930B5D87DF47C39F4B1E7C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullCompressor.cpp */; };
+		3D3AA98C53D54DE3B4A2EEE6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/SecondaryStorage.cpp */ = {isa = PBXBuildFile; fileRef = F7E4F7F9F15C4B8296EC509F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/SecondaryStorage.cpp */; };
+		3D9263B7DA9E41A39A436CB1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultRetriever.cpp */ = {isa = PBXBuildFile; fileRef = B783F313912E4348BE8D0BE8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultRetriever.cpp */; };
+		4323325EECE145F6B5A2194E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_neon.c */ = {isa = PBXBuildFile; fileRef = 7A2A0A18FF6F49DCA85658DA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_neon.c */; };
+		447D824DA8A04E4395136605 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Stat.cpp */ = {isa = PBXBuildFile; fileRef = 8EB25E0667204240890A0A39 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Stat.cpp */; };
+		45ECFE79DD1040F99B5E47A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/HttpStorage.cpp */ = {isa = PBXBuildFile; fileRef = 30351A946F1F4F4BAD22CDA7 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/HttpStorage.cpp */; };
+		496E1E38AFBB4067941BDB73 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_util.cpp */ = {isa = PBXBuildFile; fileRef = 1E6AD55216994397BD46E1A9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_util.cpp */; };
+		4D2AC80DB13D4EE8B4F21766 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryReader.cpp */ = {isa = PBXBuildFile; fileRef = 482652A2C210474DA5917A9D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryReader.cpp */; };
+		55AAEB21885A4A37892B5F34 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Hash.cpp */ = {isa = PBXBuildFile; fileRef = 6E186E77521947D685BD463F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Hash.cpp */; };
+		575738A264714278800125DD /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 84F0712DA1534E0793B6C16D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/CMakeLists.txt */; };
+		57BEFA272DB84906AAE1DE8E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_64.cpp */ = {isa = PBXBuildFile; fileRef = CA46E983C7EC4A719962F63C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_64.cpp */; };
+		65599EB07BF24A0994C609B5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Hash.cpp */ = {isa = PBXBuildFile; fileRef = 99844BC3C5684F458FD95025 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Hash.cpp */; };
+		6561324ACBCE4A2295B3FC5B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatisticsCounters.cpp */ = {isa = PBXBuildFile; fileRef = 09B83352BB9D4D1F82F6A79F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatisticsCounters.cpp */; };
+		6848C2E917104A899DBE8BD6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Stat.cpp */ = {isa = PBXBuildFile; fileRef = 403E1330553C4BDAA97C6E79 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Stat.cpp */; };
+		6B1FEEFB5E5649C087FD3CCB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatsLog.cpp */ = {isa = PBXBuildFile; fileRef = 4BACFDDE16F94B08BFD3E401 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatsLog.cpp */; };
+		6CBEC62803184AC6A97C4124 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_hashutil.cpp */ = {isa = PBXBuildFile; fileRef = 18228CBB529547A4B36AFFAB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_hashutil.cpp */; };
+		6DD0AD6EA7B349979A75D3BB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_TextTable.cpp */ = {isa = PBXBuildFile; fileRef = 51AB51D88165461388C4B0D8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_TextTable.cpp */; };
+		6E445717E9814AE292A67F11 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/StatsFile.cpp */ = {isa = PBXBuildFile; fileRef = 889A8A7772834E9CAC3C28E1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/StatsFile.cpp */; };
+		6F16BDDB3DBA4CDFABDCEB42 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/Storage.cpp */ = {isa = PBXBuildFile; fileRef = 75513F29F2BC4C99B5656CFE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/Storage.cpp */; };
+		756DF51C95734EBA868A13B1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4CCAB048BEBC4266AAD9CB21 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/CMakeLists.txt */; };
+		771529A9FF59453E8AF84D8E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Depfile.cpp */ = {isa = PBXBuildFile; fileRef = 3F9AC89F94FF4E708AA72627 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Depfile.cpp */; };
+		775CFF50E14746AE8F6A8E1A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/InodeCache.cpp */ = {isa = PBXBuildFile; fileRef = E9188F78078B46AFB16322A5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/InodeCache.cpp */; };
+		78BC4DC1BCBD4B09B57DB0D5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/url.cpp */ = {isa = PBXBuildFile; fileRef = 597066683C1B4A298777773C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/url.cpp */; };
+		79272D8245B24419AB7872DC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Depfile.cpp */ = {isa = PBXBuildFile; fileRef = B7A9927D2B18401E8D529D3A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Depfile.cpp */; };
+		79ED9750EDE54508A059899F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ccache.cpp */ = {isa = PBXBuildFile; fileRef = 99B887C247A44F3E83FC4E3E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ccache.cpp */; };
+		7B86608C1D1541C899E5F138 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_statistics.cpp */ = {isa = PBXBuildFile; fileRef = D445F6859C664EE0B2F371A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_statistics.cpp */; };
+		82C8669F4C0D43A1B1401750 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdDecompressor.cpp */ = {isa = PBXBuildFile; fileRef = FEC04811D74147E6AA204DF4 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdDecompressor.cpp */; };
+		881973B6377D48499799CAA9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/types.cpp */ = {isa = PBXBuildFile; fileRef = 07630A30A7DE44B38854ECCF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/types.cpp */; };
+		8A6CB372B6334666924E3622 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/FileStorage.cpp */ = {isa = PBXBuildFile; fileRef = 816DC359318849A1A9BB5A43 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/FileStorage.cpp */; };
+		8D7F93831C014773AC8B1246 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_string.cpp */ = {isa = PBXBuildFile; fileRef = 128980623EE14AA48766760E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_string.cpp */; };
+		91BF74040A234F9BA0A573D8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/types.cpp */ = {isa = PBXBuildFile; fileRef = CCC70A86A82D43F6A5ABA0E3 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/types.cpp */; };
+		9470A6A579EB4A3F9C9FDB14 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_NullCompression.cpp */ = {isa = PBXBuildFile; fileRef = 7913853974B64C60B33D2545 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_NullCompression.cpp */; };
+		9B4499C231BD473BB6B9453A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Result.cpp */ = {isa = PBXBuildFile; fileRef = 018CDF7C36D342C39A57D149 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Result.cpp */; };
+		A0B90C7553EF4F3FA5D429B6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/path.cpp */ = {isa = PBXBuildFile; fileRef = 85EE9CB05FF243B6AB1E20E1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/path.cpp */; };
+		A2504CD6D91846C0B8864ED6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/util.cpp */ = {isa = PBXBuildFile; fileRef = CC259F20B5214B538ED0F43E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/util.cpp */; };
+		A34CB28B8BB3420F8F0508BA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ThreadPool.cpp */ = {isa = PBXBuildFile; fileRef = 6F0B94EC3E6C47EF9231FBB7 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ThreadPool.cpp */; };
+		A352F464B4A3449F9697ED8E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/CacheFile.cpp */ = {isa = PBXBuildFile; fileRef = 7D3B1BC3585F4E9BB77E28E5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/CacheFile.cpp */; };
+		A35F52C633014E20B8AA810D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultDumper.cpp */ = {isa = PBXBuildFile; fileRef = 9AD46F9EC58349BDA443E977 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultDumper.cpp */; };
+		A4CFB9065D104C93A6EBA3AF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compression_types.cpp */ = {isa = PBXBuildFile; fileRef = CE393FDB6703477589B052F6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compression_types.cpp */; };
+		A64E8BF69D8D4BC4B565E166 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Util.cpp */ = {isa = PBXBuildFile; fileRef = EF836F5F0B39446A8820EF0B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Util.cpp */; };
+		AADA4800972E402DA84CED26 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Args.cpp */ = {isa = PBXBuildFile; fileRef = 8E84E1FC72A74397A4444CA6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Args.cpp */; };
+		B5FF5C25F9604F8DB0C74C32 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_portable.c */ = {isa = PBXBuildFile; fileRef = CEC49FCD92DC4EC0A3A129C8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_portable.c */; };
+		B9716D89674845CAA35321CE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/base32hex.c */ = {isa = PBXBuildFile; fileRef = 2E00AC06293C4669BBF2566E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/base32hex.c */; };
+		B9EED7C8DAC64F72AC53BB48 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdCompressor.cpp */ = {isa = PBXBuildFile; fileRef = 5D48591F6C7148BFAFA5E130 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdCompressor.cpp */; };
+		BC7EDD2270774D659530C685 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryHeader.cpp */ = {isa = PBXBuildFile; fileRef = F8B2CC5E2E534654B6060A70 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryHeader.cpp */; };
+		BC9821424F8D420C929B4D0E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_Tokenizer.cpp */ = {isa = PBXBuildFile; fileRef = 985977BC3D36445C8723A0CD /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_Tokenizer.cpp */; };
+		C022490D13C34D17ABB7031C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_dispatch_ccache.c */ = {isa = PBXBuildFile; fileRef = 962C199722B0459CBBC0442E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_dispatch_ccache.c */; };
+		C342B2A648C940CE890692EE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ZstdCompression.cpp */ = {isa = PBXBuildFile; fileRef = 2D17227534094B7693C48139 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ZstdCompression.cpp */; };
+		C415AA4ACDE948B6BA3CB5D4 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/SignalHandler.cpp */ = {isa = PBXBuildFile; fileRef = 0A695BEF3E014FC8B7F2B2BA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/SignalHandler.cpp */; };
+		C5D7476735114B948A39EAF5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/file.cpp */ = {isa = PBXBuildFile; fileRef = 196C25B28FC74B78B34382BA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/file.cpp */; };
+		C903C94921124F8DB16A4550 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/TemporaryFile.cpp */ = {isa = PBXBuildFile; fileRef = 142B8AC7E8C54C9AB1B2661B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/TemporaryFile.cpp */; };
+		C9DFE421B00E44489890E67C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/RedisStorage.cpp */ = {isa = PBXBuildFile; fileRef = 8CF7948E75B0461C8A7F927C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/RedisStorage.cpp */; };
+		CDCF9B69DE6C4F32967C7F1D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 6E3821E5B6A242A68F0D112B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/main.cpp */; };
+		CE8479F9E0094E07A8E65425 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/execute.cpp */ = {isa = PBXBuildFile; fileRef = 5612E4785DEC49BA8E28EE38 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/execute.cpp */; };
+		CE9CF63F9BA8461FB8C26B7C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_compress.cpp */ = {isa = PBXBuildFile; fileRef = 65CF13A4E1554EA9934E6A5B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_compress.cpp */; };
+		CF0CCC18DE9D4036921FD143 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ProgressBar.cpp */ = {isa = PBXBuildFile; fileRef = BA17914C316B43BC988B6432 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ProgressBar.cpp */; };
+		CFBBBB411E23436B990D5086 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/version.cpp */ = {isa = PBXBuildFile; fileRef = 863880E2F6D04DDD967E4E20 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/version.cpp */; };
+		D0AE7C477B5743449554CD00 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatsLog.cpp */ = {isa = PBXBuildFile; fileRef = 693D08D3DC07498D897A2F04 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatsLog.cpp */; };
+		D471FD1184F4410AAED6D787 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryWriter.cpp */ = {isa = PBXBuildFile; fileRef = 140DA02D3D914DB5B146AA2D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryWriter.cpp */; };
+		DA3399ECCDE849159C12CB64 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage.cpp */ = {isa = PBXBuildFile; fileRef = 925450B35DA347AFAC05CF53 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage.cpp */; };
+		DC9F4ED7BBBA4B519AF77B20 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_128.cpp */ = {isa = PBXBuildFile; fileRef = 11692BA4493B43A3A47D7FC5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_128.cpp */; };
+		DCDE65F03FBD4A33A0525CC0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Compressor.cpp */ = {isa = PBXBuildFile; fileRef = 301CD54B9FB14F27802442A2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Compressor.cpp */; };
+		DDCA0DFE82C5425A8D4E8289 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatisticsCounters.cpp */ = {isa = PBXBuildFile; fileRef = 646F470EF5D746BABB788488 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatisticsCounters.cpp */; };
+		E096A66EFFDC458DAC29B1F4 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Decompressor.cpp */ = {isa = PBXBuildFile; fileRef = E5B25EFFC8BF43F6B64FC3A1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Decompressor.cpp */; };
+		E0E5632A9D8242B392ADD0B9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/Statistics.cpp */ = {isa = PBXBuildFile; fileRef = 410F5D03E48E4C5E809FE20F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/Statistics.cpp */; };
+		E1190F3B18F744E78DE3BC8B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/main.cpp */ = {isa = PBXBuildFile; fileRef = 86F4D4392AFD4D559DB20251 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/main.cpp */; };
+		E7052E9BF8514190810AF2A2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ccache.cpp */ = {isa = PBXBuildFile; fileRef = 746BA55719D24BAF8A2E7A15 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ccache.cpp */; };
+		E736C7D3C15542189E0B970A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Config.cpp */ = {isa = PBXBuildFile; fileRef = B4BB978ACB5140BA9DC5CB81 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Config.cpp */; };
+		EA16B1EEA1514CB58490A6FF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Logging.cpp */ = {isa = PBXBuildFile; fileRef = CD920073C488494582465049 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Logging.cpp */; };
+		EB802B5CE85741C7B8DED546 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/TextTable.cpp */ = {isa = PBXBuildFile; fileRef = 7BF71B1835714C41A7208B9D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/TextTable.cpp */; };
+		EB82332D70FC4356A0415D2A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_FormatNonstdStringView.cpp */ = {isa = PBXBuildFile; fileRef = 37258B670E6142E8AFD12196 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_FormatNonstdStringView.cpp */; };
+		EBD8C687028E4687AF1A8EF4 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 61C3AF158FD648A3A6E82B86 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/CMakeLists.txt */; };
+		EC24E00791D645DF89E55814 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_argprocessing.cpp */ = {isa = PBXBuildFile; fileRef = 9DB4074C10354744994F20AC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_argprocessing.cpp */; };
+		ECAE7310486F426D87D34A2A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_expected.cpp */ = {isa = PBXBuildFile; fileRef = 8A3ADEF327AA4D96AAB7A4A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_expected.cpp */; };
+		F36AA14CEABE40DD8DC452C5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_Statistics.cpp */ = {isa = PBXBuildFile; fileRef = 17E163A3B2024DE5A91400C6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_Statistics.cpp */; };
+		F4FA4AC0E7FA4800A6362260 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A5866BAD0ACE474185D32814 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/CMakeLists.txt */; };
+		F9A2CCA0050942F2B9F06646 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Context.cpp */ = {isa = PBXBuildFile; fileRef = 51C71CDE4CD54D99BEB3BE34 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Context.cpp */; };
+		FF9EF01451BA422095DDA6EE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullDecompressor.cpp */ = {isa = PBXBuildFile; fileRef = CE3AE09EA82B426DB1E0111C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullDecompressor.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3417CFF27F8B4AC79F8AF0C5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6B14EA16B2E144E7AA15861F /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		724C8A1A9D9B45EA992D5E08 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FBF8018A63194E968569802F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		166D33480DA64401BEBF1808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09CAF60DABC946BF8BC024B1;
+			remoteInfo = third_party;
+		};
+		1CC8FC4B6936481DB4D179EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		1D37C12FE64A48D586D3F8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		1FD1CF3AE31C488290282379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE0085CFE12460A97F0ADF7;
+			remoteInfo = ccache;
+		};
+		2E9B17200C654C4B9612A4A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		3216B0E053B44FA88C0B09F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09CAF60DABC946BF8BC024B1;
+			remoteInfo = third_party;
+		};
+		3AF9538B163C484BA728A24F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D7C43B078242DAA0C14841;
+			remoteInfo = ccache_framework;
+		};
+		3E0EF02572F848AEA026E710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		484DEADF7FC348C59DE261BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15FD24D1D6A4E21A4BF2BF7;
+			remoteInfo = ALL_BUILD;
+		};
+		4A21E3F6B49B4765BE526960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		57340335B2754203ABC311EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09CAF60DABC946BF8BC024B1;
+			remoteInfo = third_party;
+		};
+		666D2448D1A94532B5381F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		79CAFC5885934988A5554F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15FD24D1D6A4E21A4BF2BF7;
+			remoteInfo = ALL_BUILD;
+		};
+		7CD5C4905B804FCD93220B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		80B6BA6EEE0E4F7C8430B6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE0085CFE12460A97F0ADF7;
+			remoteInfo = ccache;
+		};
+		84292AC1408546E3B502EE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		8E8C53F5A8634ECB9838E057 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCE4A518EC74D7697833C21;
+			remoteInfo = unittest;
+		};
+		9AC19E31A1224DFABF319021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C9A67A831C49C69B2804C0;
+			remoteInfo = blake3;
+		};
+		A376E60723494D4E95421F6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D7C43B078242DAA0C14841;
+			remoteInfo = ccache_framework;
+		};
+		A57E306F42B5470BA79FB0FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFCE4A518EC74D7697833C21;
+			remoteInfo = unittest;
+		};
+		A93348AC80374198821AC6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09CAF60DABC946BF8BC024B1;
+			remoteInfo = third_party;
+		};
+		AC9DD16723184D3B8034A220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C9A67A831C49C69B2804C0;
+			remoteInfo = blake3;
+		};
+		CD364E65A0F64AC4B2623CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C9A67A831C49C69B2804C0;
+			remoteInfo = blake3;
+		};
+		CD6EAECBE19F45A3A138F3AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32C9A67A831C49C69B2804C0;
+			remoteInfo = blake3;
+		};
+		CF565D7005B449AD84F418DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 329168F3448243A6A9260BC0;
+			remoteInfo = ZERO_CHECK;
+		};
+		EB0FA9E8FC6E45B09BE8F011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301B79C116E34B48BCEA20CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D7C43B078242DAA0C14841;
+			remoteInfo = ccache_framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018CDF7C36D342C39A57D149 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Result.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Result.cpp; path = src/Result.cpp; sourceTree = SOURCE_ROOT; };
+		07630A30A7DE44B38854ECCF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = types.cpp; path = src/core/types.cpp; sourceTree = SOURCE_ROOT; };
+		09B83352BB9D4D1F82F6A79F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatisticsCounters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StatisticsCounters.cpp; path = src/core/StatisticsCounters.cpp; sourceTree = SOURCE_ROOT; };
+		0A695BEF3E014FC8B7F2B2BA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/SignalHandler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SignalHandler.cpp; path = src/SignalHandler.cpp; sourceTree = SOURCE_ROOT; };
+		11692BA4493B43A3A47D7FC5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_128.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_util_XXH3_128.cpp; path = unittest/test_util_XXH3_128.cpp; sourceTree = SOURCE_ROOT; };
+		128980623EE14AA48766760E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_string.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_util_string.cpp; path = unittest/test_util_string.cpp; sourceTree = SOURCE_ROOT; };
+		13507106EEC2477185F62B2D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/httplib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = httplib.cpp; path = src/third_party/httplib.cpp; sourceTree = SOURCE_ROOT; };
+		140DA02D3D914DB5B146AA2D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryWriter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CacheEntryWriter.cpp; path = src/core/CacheEntryWriter.cpp; sourceTree = SOURCE_ROOT; };
+		142B8AC7E8C54C9AB1B2661B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/TemporaryFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TemporaryFile.cpp; path = src/TemporaryFile.cpp; sourceTree = SOURCE_ROOT; };
+		14CAE275423B4A2CA2CDE71A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_InodeCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_InodeCache.cpp; path = unittest/test_InodeCache.cpp; sourceTree = SOURCE_ROOT; };
+		17E163A3B2024DE5A91400C6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_Statistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_core_Statistics.cpp; path = unittest/test_core_Statistics.cpp; sourceTree = SOURCE_ROOT; };
+		18228CBB529547A4B36AFFAB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_hashutil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_hashutil.cpp; path = unittest/test_hashutil.cpp; sourceTree = SOURCE_ROOT; };
+		196C25B28FC74B78B34382BA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/file.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = file.cpp; path = src/util/file.cpp; sourceTree = SOURCE_ROOT; };
+		1B4F8291A4DC43B48B2408CC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_util_path.cpp; path = unittest/test_util_path.cpp; sourceTree = SOURCE_ROOT; };
+		1E6AD55216994397BD46E1A9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_storage_primary_util.cpp; path = unittest/test_storage_primary_util.cpp; sourceTree = SOURCE_ROOT; };
+		221BCD27A8344AA2A8655DA2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2338054B7B9E4AD286E1F9CB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_AtomicFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_AtomicFile.cpp; path = unittest/test_AtomicFile.cpp; sourceTree = SOURCE_ROOT; };
+		2CE82EAEB9B14DD1955B4410 /* unittest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = unittest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D17227534094B7693C48139 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ZstdCompression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_ZstdCompression.cpp; path = unittest/test_ZstdCompression.cpp; sourceTree = SOURCE_ROOT; };
+		2E00AC06293C4669BBF2566E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/base32hex.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = base32hex.c; path = src/third_party/base32hex.c; sourceTree = SOURCE_ROOT; };
+		2F1A79317A5B42EA8118766D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = format.cpp; path = src/third_party/format.cpp; sourceTree = SOURCE_ROOT; };
+		301CD54B9FB14F27802442A2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Compressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Compressor.cpp; path = src/compression/Compressor.cpp; sourceTree = SOURCE_ROOT; };
+		30351A946F1F4F4BAD22CDA7 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/HttpStorage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HttpStorage.cpp; path = src/storage/secondary/HttpStorage.cpp; sourceTree = SOURCE_ROOT; };
+		37258B670E6142E8AFD12196 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_FormatNonstdStringView.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_FormatNonstdStringView.cpp; path = unittest/test_FormatNonstdStringView.cpp; sourceTree = SOURCE_ROOT; };
+		3D9BEFDE776C4CF982C9D79F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3DC8D53A47B2491CACD75745 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3F9AC89F94FF4E708AA72627 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Depfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Depfile.cpp; path = src/Depfile.cpp; sourceTree = SOURCE_ROOT; };
+		403E1330553C4BDAA97C6E79 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Stat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_Stat.cpp; path = unittest/test_Stat.cpp; sourceTree = SOURCE_ROOT; };
+		410F5D03E48E4C5E809FE20F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/Statistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Statistics.cpp; path = src/core/Statistics.cpp; sourceTree = SOURCE_ROOT; };
+		482652A2C210474DA5917A9D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryReader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CacheEntryReader.cpp; path = src/core/CacheEntryReader.cpp; sourceTree = SOURCE_ROOT; };
+		49FB32A5FA4B4FF7B15338FB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = src/third_party/xxhash.c; sourceTree = SOURCE_ROOT; };
+		4BACFDDE16F94B08BFD3E401 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatsLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StatsLog.cpp; path = src/core/StatsLog.cpp; sourceTree = SOURCE_ROOT; };
+		4CCAB048BEBC4266AAD9CB21 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		511FFB92CBF945A3946AA4FC /* third_party */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libthird_party.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AB51D88165461388C4B0D8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_TextTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_util_TextTable.cpp; path = unittest/test_util_TextTable.cpp; sourceTree = SOURCE_ROOT; };
+		51C71CDE4CD54D99BEB3BE34 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Context.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Context.cpp; path = src/Context.cpp; sourceTree = SOURCE_ROOT; };
+		5612E4785DEC49BA8E28EE38 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/execute.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = execute.cpp; path = src/execute.cpp; sourceTree = SOURCE_ROOT; };
+		569B997635F3450FBFAF6896 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/mainoptions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mainoptions.cpp; path = src/core/mainoptions.cpp; sourceTree = SOURCE_ROOT; };
+		597066683C1B4A298777773C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/url.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = url.cpp; path = src/third_party/url.cpp; sourceTree = SOURCE_ROOT; };
+		5D23FECFF1A9451D98BA5828 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Args.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Args.cpp; path = src/Args.cpp; sourceTree = SOURCE_ROOT; };
+		5D48591F6C7148BFAFA5E130 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ZstdCompressor.cpp; path = src/compression/ZstdCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		5EA3CB8E6EB1487A8E0C7A41 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = blake3.c; path = src/third_party/blake3/blake3.c; sourceTree = SOURCE_ROOT; };
+		5FD303BCDF184D0B95C5A649 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/assertions.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = assertions.cpp; path = src/assertions.cpp; sourceTree = SOURCE_ROOT; };
+		60ACA9EBD73C40569FFFC3F0 /* blake3 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libblake3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C3AF158FD648A3A6E82B86 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/third_party/blake3/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		646F470EF5D746BABB788488 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatisticsCounters.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_core_StatisticsCounters.cpp; path = unittest/test_core_StatisticsCounters.cpp; sourceTree = SOURCE_ROOT; };
+		65CF13A4E1554EA9934E6A5B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_compress.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PrimaryStorage_compress.cpp; path = src/storage/primary/PrimaryStorage_compress.cpp; sourceTree = SOURCE_ROOT; };
+		693D08D3DC07498D897A2F04 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatsLog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_core_StatsLog.cpp; path = unittest/test_core_StatsLog.cpp; sourceTree = SOURCE_ROOT; };
+		6E0C824C91D64DE689DC463F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/TestUtil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TestUtil.cpp; path = unittest/TestUtil.cpp; sourceTree = SOURCE_ROOT; };
+		6E186E77521947D685BD463F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Hash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Hash.cpp; path = src/Hash.cpp; sourceTree = SOURCE_ROOT; };
+		6E3821E5B6A242A68F0D112B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		6F0B94EC3E6C47EF9231FBB7 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ThreadPool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ThreadPool.cpp; path = src/ThreadPool.cpp; sourceTree = SOURCE_ROOT; };
+		706E8E0A041349F19D82A335 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/hashutil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hashutil.cpp; path = src/hashutil.cpp; sourceTree = SOURCE_ROOT; };
+		721B033066694F08A4EE39A9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Lockfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Lockfile.cpp; path = src/Lockfile.cpp; sourceTree = SOURCE_ROOT; };
+		746BA55719D24BAF8A2E7A15 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ccache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ccache.cpp; path = src/ccache.cpp; sourceTree = SOURCE_ROOT; };
+		75513F29F2BC4C99B5656CFE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/Storage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Storage.cpp; path = src/storage/Storage.cpp; sourceTree = SOURCE_ROOT; };
+		7907D2B036F442F0A1BDA2C9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Lockfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_Lockfile.cpp; path = unittest/test_Lockfile.cpp; sourceTree = SOURCE_ROOT; };
+		7913853974B64C60B33D2545 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_NullCompression.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_NullCompression.cpp; path = unittest/test_NullCompression.cpp; sourceTree = SOURCE_ROOT; };
+		7A2A0A18FF6F49DCA85658DA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_neon.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = blake3_neon.c; path = src/third_party/blake3/blake3_neon.c; sourceTree = SOURCE_ROOT; };
+		7BF71B1835714C41A7208B9D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/TextTable.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextTable.cpp; path = src/util/TextTable.cpp; sourceTree = SOURCE_ROOT; };
+		7CDFADBCBD714065962DBC5F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_StatsFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_storage_primary_StatsFile.cpp; path = unittest/test_storage_primary_StatsFile.cpp; sourceTree = SOURCE_ROOT; };
+		7D3B1BC3585F4E9BB77E28E5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/CacheFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CacheFile.cpp; path = src/storage/primary/CacheFile.cpp; sourceTree = SOURCE_ROOT; };
+		816DC359318849A1A9BB5A43 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/FileStorage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FileStorage.cpp; path = src/storage/secondary/FileStorage.cpp; sourceTree = SOURCE_ROOT; };
+		84E6D67CB8B648E49B3E1141 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/Tokenizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Tokenizer.cpp; path = src/util/Tokenizer.cpp; sourceTree = SOURCE_ROOT; };
+		84F0712DA1534E0793B6C16D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unittest/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		85EE9CB05FF243B6AB1E20E1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/path.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = path.cpp; path = src/util/path.cpp; sourceTree = SOURCE_ROOT; };
+		863880E2F6D04DDD967E4E20 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/version.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = version.cpp; path = src/version.cpp; sourceTree = SOURCE_ROOT; };
+		868B50F862634A109D377C99 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compopt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_compopt.cpp; path = unittest/test_compopt.cpp; sourceTree = SOURCE_ROOT; };
+		86F4D4392AFD4D559DB20251 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = unittest/main.cpp; sourceTree = SOURCE_ROOT; };
+		889A8A7772834E9CAC3C28E1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/StatsFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StatsFile.cpp; path = src/storage/primary/StatsFile.cpp; sourceTree = SOURCE_ROOT; };
+		8A3ADEF327AA4D96AAB7A4A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_expected.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_util_expected.cpp; path = unittest/test_util_expected.cpp; sourceTree = SOURCE_ROOT; };
+		8CF7948E75B0461C8A7F927C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/RedisStorage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RedisStorage.cpp; path = src/storage/secondary/RedisStorage.cpp; sourceTree = SOURCE_ROOT; };
+		8E84E1FC72A74397A4444CA6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Args.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_Args.cpp; path = unittest/test_Args.cpp; sourceTree = SOURCE_ROOT; };
+		8EB25E0667204240890A0A39 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Stat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Stat.cpp; path = src/Stat.cpp; sourceTree = SOURCE_ROOT; };
+		925450B35DA347AFAC05CF53 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PrimaryStorage.cpp; path = src/storage/primary/PrimaryStorage.cpp; sourceTree = SOURCE_ROOT; };
+		94A5DAC5B60646528C97976D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultExtractor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResultExtractor.cpp; path = src/ResultExtractor.cpp; sourceTree = SOURCE_ROOT; };
+		962C199722B0459CBBC0442E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_dispatch_ccache.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = blake3_dispatch_ccache.c; path = src/third_party/blake3/blake3_dispatch_ccache.c; sourceTree = SOURCE_ROOT; };
+		985977BC3D36445C8723A0CD /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_Tokenizer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_util_Tokenizer.cpp; path = unittest/test_util_Tokenizer.cpp; sourceTree = SOURCE_ROOT; };
+		99844BC3C5684F458FD95025 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Hash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_Hash.cpp; path = unittest/test_Hash.cpp; sourceTree = SOURCE_ROOT; };
+		99B887C247A44F3E83FC4E3E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ccache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_ccache.cpp; path = unittest/test_ccache.cpp; sourceTree = SOURCE_ROOT; };
+		9AD46F9EC58349BDA443E977 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultDumper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResultDumper.cpp; path = src/ResultDumper.cpp; sourceTree = SOURCE_ROOT; };
+		9DB4074C10354744994F20AC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_argprocessing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_argprocessing.cpp; path = unittest/test_argprocessing.cpp; sourceTree = SOURCE_ROOT; };
+		A063F3DF2F94494592694488 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/string.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = string.cpp; path = src/util/string.cpp; sourceTree = SOURCE_ROOT; };
+		A5866BAD0ACE474185D32814 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/third_party/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A6908BFA46E441F8B45A240A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/AtomicFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = AtomicFile.cpp; path = src/AtomicFile.cpp; sourceTree = SOURCE_ROOT; };
+		B4BB978ACB5140BA9DC5CB81 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Config.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Config.cpp; path = src/Config.cpp; sourceTree = SOURCE_ROOT; };
+		B781ED862B364F95A8F937AF /* ccache_framework */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libccache_framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B783F313912E4348BE8D0BE8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultRetriever.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ResultRetriever.cpp; path = src/ResultRetriever.cpp; sourceTree = SOURCE_ROOT; };
+		B7A9927D2B18401E8D529D3A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Depfile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_Depfile.cpp; path = unittest/test_Depfile.cpp; sourceTree = SOURCE_ROOT; };
+		BA17914C316B43BC988B6432 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ProgressBar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ProgressBar.cpp; path = src/ProgressBar.cpp; sourceTree = SOURCE_ROOT; };
+		C307D7C85AF0499586514043 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compopt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = compopt.cpp; path = src/compopt.cpp; sourceTree = SOURCE_ROOT; };
+		CA46E983C7EC4A719962F63C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_util_XXH3_64.cpp; path = unittest/test_util_XXH3_64.cpp; sourceTree = SOURCE_ROOT; };
+		CC259F20B5214B538ED0F43E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = util.cpp; path = src/storage/primary/util.cpp; sourceTree = SOURCE_ROOT; };
+		CCC70A86A82D43F6A5ABA0E3 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = types.cpp; path = src/compression/types.cpp; sourceTree = SOURCE_ROOT; };
+		CD920073C488494582465049 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Logging.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Logging.cpp; path = src/Logging.cpp; sourceTree = SOURCE_ROOT; };
+		CE393FDB6703477589B052F6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compression_types.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_compression_types.cpp; path = unittest/test_compression_types.cpp; sourceTree = SOURCE_ROOT; };
+		CE3AE09EA82B426DB1E0111C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullDecompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NullDecompressor.cpp; path = src/compression/NullDecompressor.cpp; sourceTree = SOURCE_ROOT; };
+		CEC49FCD92DC4EC0A3A129C8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_portable.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = blake3_portable.c; path = src/third_party/blake3/blake3_portable.c; sourceTree = SOURCE_ROOT; };
+		D004802A08E343B19770B570 /* ccache */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ccache; sourceTree = BUILT_PRODUCTS_DIR; };
+		D445F6859C664EE0B2F371A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_statistics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PrimaryStorage_statistics.cpp; path = src/storage/primary/PrimaryStorage_statistics.cpp; sourceTree = SOURCE_ROOT; };
+		D639D2159A484C7DA2237B5A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Fd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Fd.cpp; path = src/Fd.cpp; sourceTree = SOURCE_ROOT; };
+		DB638657151A45E88B900B70 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Manifest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Manifest.cpp; path = src/Manifest.cpp; sourceTree = SOURCE_ROOT; };
+		DBAC210261BF4BD19FF8D5F0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/getopt_long.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = getopt_long.c; path = src/third_party/getopt_long.c; sourceTree = SOURCE_ROOT; };
+		DFEC45DE1ED74376AA74626C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/language.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = language.cpp; path = src/language.cpp; sourceTree = SOURCE_ROOT; };
+		E05119128BCE44C79C9CD9FE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Config.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_Config.cpp; path = unittest/test_Config.cpp; sourceTree = SOURCE_ROOT; };
+		E5B25EFFC8BF43F6B64FC3A1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Decompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Decompressor.cpp; path = src/compression/Decompressor.cpp; sourceTree = SOURCE_ROOT; };
+		E79E87D04AA244598DF3C86F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/argprocessing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = argprocessing.cpp; path = src/argprocessing.cpp; sourceTree = SOURCE_ROOT; };
+		E9188F78078B46AFB16322A5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/InodeCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InodeCache.cpp; path = src/InodeCache.cpp; sourceTree = SOURCE_ROOT; };
+		EF836F5F0B39446A8820EF0B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_Util.cpp; path = unittest/test_Util.cpp; sourceTree = SOURCE_ROOT; };
+		F2F227F9CA52482384BAD94D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F5758CAC28E3411782E22B86 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_cleanup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PrimaryStorage_cleanup.cpp; path = src/storage/primary/PrimaryStorage_cleanup.cpp; sourceTree = SOURCE_ROOT; };
+		F7E4F7F9F15C4B8296EC509F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/SecondaryStorage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SecondaryStorage.cpp; path = src/storage/secondary/SecondaryStorage.cpp; sourceTree = SOURCE_ROOT; };
+		F8B2CC5E2E534654B6060A70 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryHeader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CacheEntryHeader.cpp; path = src/core/CacheEntryHeader.cpp; sourceTree = SOURCE_ROOT; };
+		F9AC56EF69364109980724F1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FC5ACBB2A1E6400798D6F135 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Util.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Util.cpp; path = src/Util.cpp; sourceTree = SOURCE_ROOT; };
+		FC930B5D87DF47C39F4B1E7C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullCompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NullCompressor.cpp; path = src/compression/NullCompressor.cpp; sourceTree = SOURCE_ROOT; };
+		FEC04811D74147E6AA204DF4 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdDecompressor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ZstdDecompressor.cpp; path = src/compression/ZstdDecompressor.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09AC1CE5DA2049E58FDE39D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10008A17B0B14BF9BBA8AF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D8FFEE620B44E69868BFCE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE2F32E0832402FAF754D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C579450328674035A5BBB915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0806A06D9DB1495693BBCC06 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		09C1351AC5A9417181B66FB2 /* blake3 */ = {
+			isa = PBXGroup;
+			children = (
+				F39B8AA8B36C4607A9268C7D /* Source Files */,
+				61C3AF158FD648A3A6E82B86 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/CMakeLists.txt */,
+			);
+			name = blake3;
+			sourceTree = "<group>";
+		};
+		1E2F811903D6422B92518778 = {
+			isa = PBXGroup;
+			children = (
+				8C3E02B008DC49A4A496A489 /* format */,
+				DD973FC53067410ABA1C9037 /* check_format */,
+				D20B94099F1A4A8F9CD00C01 /* check */,
+				6B7A31D3DDF442BFA9365914 /* ccache */,
+				5C545651AA4146A7B9D2816A /* ALL_BUILD */,
+				EC9D075494524F949D213C6A /* ccache_framework */,
+				F928EDCCD49C4F629CAC4D75 /* third_party */,
+				09C1351AC5A9417181B66FB2 /* blake3 */,
+				AE587383BDC74BE8996DCF8F /* unittest */,
+				E56C58D94DBC4AABB0795F4B /* Products */,
+				2FC499332AE148FB8E25CAC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20437E0A8CEA4E51928B152A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D23FECFF1A9451D98BA5828 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Args.cpp */,
+				A6908BFA46E441F8B45A240A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/AtomicFile.cpp */,
+				B4BB978ACB5140BA9DC5CB81 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Config.cpp */,
+				51C71CDE4CD54D99BEB3BE34 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Context.cpp */,
+				3F9AC89F94FF4E708AA72627 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Depfile.cpp */,
+				D639D2159A484C7DA2237B5A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Fd.cpp */,
+				6E186E77521947D685BD463F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Hash.cpp */,
+				E9188F78078B46AFB16322A5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/InodeCache.cpp */,
+				721B033066694F08A4EE39A9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Lockfile.cpp */,
+				CD920073C488494582465049 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Logging.cpp */,
+				DB638657151A45E88B900B70 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Manifest.cpp */,
+				BA17914C316B43BC988B6432 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ProgressBar.cpp */,
+				018CDF7C36D342C39A57D149 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Result.cpp */,
+				9AD46F9EC58349BDA443E977 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultDumper.cpp */,
+				94A5DAC5B60646528C97976D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultExtractor.cpp */,
+				B783F313912E4348BE8D0BE8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultRetriever.cpp */,
+				0A695BEF3E014FC8B7F2B2BA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/SignalHandler.cpp */,
+				8EB25E0667204240890A0A39 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Stat.cpp */,
+				142B8AC7E8C54C9AB1B2661B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/TemporaryFile.cpp */,
+				6F0B94EC3E6C47EF9231FBB7 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ThreadPool.cpp */,
+				FC5ACBB2A1E6400798D6F135 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Util.cpp */,
+				E79E87D04AA244598DF3C86F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/argprocessing.cpp */,
+				5FD303BCDF184D0B95C5A649 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/assertions.cpp */,
+				746BA55719D24BAF8A2E7A15 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ccache.cpp */,
+				C307D7C85AF0499586514043 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compopt.cpp */,
+				301CD54B9FB14F27802442A2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Compressor.cpp */,
+				E5B25EFFC8BF43F6B64FC3A1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Decompressor.cpp */,
+				FC930B5D87DF47C39F4B1E7C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullCompressor.cpp */,
+				CE3AE09EA82B426DB1E0111C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullDecompressor.cpp */,
+				5D48591F6C7148BFAFA5E130 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdCompressor.cpp */,
+				FEC04811D74147E6AA204DF4 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdDecompressor.cpp */,
+				CCC70A86A82D43F6A5ABA0E3 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/types.cpp */,
+				F8B2CC5E2E534654B6060A70 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryHeader.cpp */,
+				482652A2C210474DA5917A9D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryReader.cpp */,
+				140DA02D3D914DB5B146AA2D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryWriter.cpp */,
+				410F5D03E48E4C5E809FE20F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/Statistics.cpp */,
+				09B83352BB9D4D1F82F6A79F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatisticsCounters.cpp */,
+				4BACFDDE16F94B08BFD3E401 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatsLog.cpp */,
+				569B997635F3450FBFAF6896 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/mainoptions.cpp */,
+				07630A30A7DE44B38854ECCF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/types.cpp */,
+				5612E4785DEC49BA8E28EE38 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/execute.cpp */,
+				706E8E0A041349F19D82A335 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/hashutil.cpp */,
+				DFEC45DE1ED74376AA74626C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/language.cpp */,
+				75513F29F2BC4C99B5656CFE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/Storage.cpp */,
+				7D3B1BC3585F4E9BB77E28E5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/CacheFile.cpp */,
+				925450B35DA347AFAC05CF53 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage.cpp */,
+				F5758CAC28E3411782E22B86 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_cleanup.cpp */,
+				65CF13A4E1554EA9934E6A5B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_compress.cpp */,
+				D445F6859C664EE0B2F371A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_statistics.cpp */,
+				889A8A7772834E9CAC3C28E1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/StatsFile.cpp */,
+				CC259F20B5214B538ED0F43E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/util.cpp */,
+				816DC359318849A1A9BB5A43 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/FileStorage.cpp */,
+				30351A946F1F4F4BAD22CDA7 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/HttpStorage.cpp */,
+				8CF7948E75B0461C8A7F927C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/RedisStorage.cpp */,
+				F7E4F7F9F15C4B8296EC509F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/SecondaryStorage.cpp */,
+				7BF71B1835714C41A7208B9D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/TextTable.cpp */,
+				84E6D67CB8B648E49B3E1141 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/Tokenizer.cpp */,
+				196C25B28FC74B78B34382BA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/file.cpp */,
+				85EE9CB05FF243B6AB1E20E1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/path.cpp */,
+				A063F3DF2F94494592694488 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/string.cpp */,
+				863880E2F6D04DDD967E4E20 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/version.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2FC499332AE148FB8E25CAC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C545651AA4146A7B9D2816A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0806A06D9DB1495693BBCC06 /* CMake Rules */,
+				3D9BEFDE776C4CF982C9D79F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5E4F7B0498574030A3DBFAFD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E3821E5B6A242A68F0D112B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		61C0EF438ADB4F83A4A796C6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		61D33010887E4AD08DF4141F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6B7A31D3DDF442BFA9365914 /* ccache */ = {
+			isa = PBXGroup;
+			children = (
+				5E4F7B0498574030A3DBFAFD /* Source Files */,
+				F2F227F9CA52482384BAD94D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */,
+			);
+			name = ccache;
+			sourceTree = "<group>";
+		};
+		820AD5516A6E45F39B41B7E3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E00AC06293C4669BBF2566E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/base32hex.c */,
+				2F1A79317A5B42EA8118766D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/format.cpp */,
+				DBAC210261BF4BD19FF8D5F0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/getopt_long.c */,
+				13507106EEC2477185F62B2D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/httplib.cpp */,
+				597066683C1B4A298777773C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/url.cpp */,
+				49FB32A5FA4B4FF7B15338FB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8C3E02B008DC49A4A496A489 /* format */ = {
+			isa = PBXGroup;
+			children = (
+				61D33010887E4AD08DF4141F /* CMake Rules */,
+				221BCD27A8344AA2A8655DA2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */,
+			);
+			name = format;
+			sourceTree = "<group>";
+		};
+		AD4C4E6AB418451F97AF787D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AE587383BDC74BE8996DCF8F /* unittest */ = {
+			isa = PBXGroup;
+			children = (
+				D94D2009C03F49F39F7CC048 /* Source Files */,
+				84F0712DA1534E0793B6C16D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/CMakeLists.txt */,
+			);
+			name = unittest;
+			sourceTree = "<group>";
+		};
+		D20B94099F1A4A8F9CD00C01 /* check */ = {
+			isa = PBXGroup;
+			children = (
+				AD4C4E6AB418451F97AF787D /* CMake Rules */,
+				3DC8D53A47B2491CACD75745 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */,
+			);
+			name = check;
+			sourceTree = "<group>";
+		};
+		D94D2009C03F49F39F7CC048 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C824C91D64DE689DC463F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/TestUtil.cpp */,
+				86F4D4392AFD4D559DB20251 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/main.cpp */,
+				8E84E1FC72A74397A4444CA6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Args.cpp */,
+				2338054B7B9E4AD286E1F9CB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_AtomicFile.cpp */,
+				E05119128BCE44C79C9CD9FE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Config.cpp */,
+				B7A9927D2B18401E8D529D3A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Depfile.cpp */,
+				37258B670E6142E8AFD12196 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_FormatNonstdStringView.cpp */,
+				99844BC3C5684F458FD95025 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Hash.cpp */,
+				14CAE275423B4A2CA2CDE71A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_InodeCache.cpp */,
+				7907D2B036F442F0A1BDA2C9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Lockfile.cpp */,
+				7913853974B64C60B33D2545 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_NullCompression.cpp */,
+				403E1330553C4BDAA97C6E79 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Stat.cpp */,
+				EF836F5F0B39446A8820EF0B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Util.cpp */,
+				2D17227534094B7693C48139 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ZstdCompression.cpp */,
+				9DB4074C10354744994F20AC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_argprocessing.cpp */,
+				99B887C247A44F3E83FC4E3E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ccache.cpp */,
+				868B50F862634A109D377C99 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compopt.cpp */,
+				CE393FDB6703477589B052F6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compression_types.cpp */,
+				17E163A3B2024DE5A91400C6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_Statistics.cpp */,
+				646F470EF5D746BABB788488 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatisticsCounters.cpp */,
+				693D08D3DC07498D897A2F04 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatsLog.cpp */,
+				18228CBB529547A4B36AFFAB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_hashutil.cpp */,
+				7CDFADBCBD714065962DBC5F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_StatsFile.cpp */,
+				1E6AD55216994397BD46E1A9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_util.cpp */,
+				51AB51D88165461388C4B0D8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_TextTable.cpp */,
+				985977BC3D36445C8723A0CD /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_Tokenizer.cpp */,
+				11692BA4493B43A3A47D7FC5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_128.cpp */,
+				CA46E983C7EC4A719962F63C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_64.cpp */,
+				8A3ADEF327AA4D96AAB7A4A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_expected.cpp */,
+				1B4F8291A4DC43B48B2408CC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_path.cpp */,
+				128980623EE14AA48766760E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_string.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		DD973FC53067410ABA1C9037 /* check_format */ = {
+			isa = PBXGroup;
+			children = (
+				61C0EF438ADB4F83A4A796C6 /* CMake Rules */,
+				F9AC56EF69364109980724F1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeLists.txt */,
+			);
+			name = check_format;
+			sourceTree = "<group>";
+		};
+		E56C58D94DBC4AABB0795F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60ACA9EBD73C40569FFFC3F0 /* blake3 */,
+				D004802A08E343B19770B570 /* ccache */,
+				B781ED862B364F95A8F937AF /* ccache_framework */,
+				511FFB92CBF945A3946AA4FC /* third_party */,
+				2CE82EAEB9B14DD1955B4410 /* unittest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9D075494524F949D213C6A /* ccache_framework */ = {
+			isa = PBXGroup;
+			children = (
+				20437E0A8CEA4E51928B152A /* Source Files */,
+				4CCAB048BEBC4266AAD9CB21 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/CMakeLists.txt */,
+			);
+			name = ccache_framework;
+			sourceTree = "<group>";
+		};
+		F39B8AA8B36C4607A9268C7D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EA3CB8E6EB1487A8E0C7A41 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3.c */,
+				962C199722B0459CBBC0442E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_dispatch_ccache.c */,
+				7A2A0A18FF6F49DCA85658DA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_neon.c */,
+				CEC49FCD92DC4EC0A3A129C8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_portable.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F928EDCCD49C4F629CAC4D75 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				820AD5516A6E45F39B41B7E3 /* Source Files */,
+				A5866BAD0ACE474185D32814 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/CMakeLists.txt */,
+			);
+			name = third_party;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D7C43B078242DAA0C14841 /* ccache_framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD581A8B8F54D0A88727A9B /* Build configuration list for PBXNativeTarget "ccache_framework" */;
+			buildPhases = (
+				9EB7CEBB16A349B9A222E787 /* Sources */,
+				C579450328674035A5BBB915 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				041B8EADCB7A4AA6A7184AE2 /* PBXTargetDependency */,
+				4BD7C06DE2C442D5887F19F7 /* PBXTargetDependency */,
+				FDC68015B1C747BBBE1EE5F2 /* PBXTargetDependency */,
+			);
+			name = ccache_framework;
+			productName = ccache_framework;
+			productReference = B781ED862B364F95A8F937AF /* ccache_framework */;
+			productType = "com.apple.product-type.library.static";
+		};
+		09CAF60DABC946BF8BC024B1 /* third_party */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D645FD74AF4CC8A2D11C24 /* Build configuration list for PBXNativeTarget "third_party" */;
+			buildPhases = (
+				5DEBFEBCBB40432BA2F583ED /* Sources */,
+				5D8FFEE620B44E69868BFCE9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312E4DC1C5AD41D5B6D2B3A4 /* PBXTargetDependency */,
+			);
+			name = third_party;
+			productName = third_party;
+			productReference = 511FFB92CBF945A3946AA4FC /* third_party */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32C9A67A831C49C69B2804C0 /* blake3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0EF26B34384FC9A62F8437 /* Build configuration list for PBXNativeTarget "blake3" */;
+			buildPhases = (
+				CEA2AD2994FB48D2832A0202 /* Sources */,
+				8AE2F32E0832402FAF754D96 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4B072E67F0465F96CCE564 /* PBXTargetDependency */,
+			);
+			name = blake3;
+			productName = blake3;
+			productReference = 60ACA9EBD73C40569FFFC3F0 /* blake3 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4CE0085CFE12460A97F0ADF7 /* ccache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E06583B379D4DAA8FB45412 /* Build configuration list for PBXNativeTarget "ccache" */;
+			buildPhases = (
+				6F9AC7B18FFC4AA9A9A31BC1 /* Sources */,
+				10008A17B0B14BF9BBA8AF5F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34767AFC318404BB97E1A6A /* PBXTargetDependency */,
+				E4C3C78161524789BBD8A31B /* PBXTargetDependency */,
+				CC6E268EEE2E44A8A835B4CF /* PBXTargetDependency */,
+				E22E68E544394C2285A6BF68 /* PBXTargetDependency */,
+			);
+			name = ccache;
+			productName = ccache;
+			productReference = D004802A08E343B19770B570 /* ccache */;
+			productType = "com.apple.product-type.tool";
+		};
+		BFCE4A518EC74D7697833C21 /* unittest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E939564899E644E3975865D2 /* Build configuration list for PBXNativeTarget "unittest" */;
+			buildPhases = (
+				610077015A9241DEBD6DFA52 /* Sources */,
+				09AC1CE5DA2049E58FDE39D8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EF91B40A0940B4BE0ACFD3 /* PBXTargetDependency */,
+				6EC0B95E825C49EE985A0321 /* PBXTargetDependency */,
+				97B609BFB8A74C76AD0B7598 /* PBXTargetDependency */,
+				F6DCDA85A58A44079FE7B354 /* PBXTargetDependency */,
+			);
+			name = unittest;
+			productName = unittest;
+			productReference = 2CE82EAEB9B14DD1955B4410 /* unittest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		301B79C116E34B48BCEA20CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1310;
+			};
+			buildConfigurationList = 7EC5A547AD8B4830AF5CDAFE /* Build configuration list for PBXProject "ccache" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FBF8018A63194E968569802F /* Debug */,
+				6B14EA16B2E144E7AA15861F /* Release */,
+				3417CFF27F8B4AC79F8AF0C5 /* MinSizeRel */,
+				724C8A1A9D9B45EA992D5E08 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1E2F811903D6422B92518778;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				B15FD24D1D6A4E21A4BF2BF7 /* ALL_BUILD */,
+				DFF8AEF079B544E191FE7A4B /* RUN_TESTS */,
+				329168F3448243A6A9260BC0 /* ZERO_CHECK */,
+				32C9A67A831C49C69B2804C0 /* blake3 */,
+				4CE0085CFE12460A97F0ADF7 /* ccache */,
+				04D7C43B078242DAA0C14841 /* ccache_framework */,
+				749203D60A8B4411B58DD8C9 /* check */,
+				12E14CD9A0AE42488F81474C /* check_format */,
+				3E865CA9C64D40F38385475B /* format */,
+				815E2CEF644C40B4A26ED29C /* install */,
+				9E46C61650BA42D097CDD4DD /* package */,
+				09CAF60DABC946BF8BC024B1 /* third_party */,
+				BFCE4A518EC74D7697833C21 /* unittest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003C8D08B0008F35F218E126 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/ctest --force-new-ctest-process --output-on-failure -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/ctest --force-new-ctest-process --output-on-failure -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/ctest --force-new-ctest-process --output-on-failure -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/ctest --force-new-ctest-process --output-on-failure -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4835B109CDC37524F213CE7E /* Generate CMakeFiles/format */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/format";
+			outputPaths = (
+/Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeFiles/format			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  misc/format-files --all
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  misc/format-files --all
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  misc/format-files --all
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  misc/format-files --all
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		73CC4DAB6F6E597E11F782DB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		88989C8F4A19CA44A9C892ED /* Generate CMakeFiles/check */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+/Users/xuzhongping/Desktop/dev/myGithub/ccache/Debug/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/MinSizeRel/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/RelWithDebInfo/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/Release/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/Debug/unittest,/Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/MinSizeRel/unittest,/Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/RelWithDebInfo/unittest,/Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/Release/unittest			);
+			name = "Generate CMakeFiles/check";
+			outputPaths = (
+/Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeFiles/check			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/ctest --force-new-ctest-process --output-on-failure --build-config Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/ctest --force-new-ctest-process --output-on-failure --build-config Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/ctest --force-new-ctest-process --output-on-failure --build-config MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/ctest --force-new-ctest-process --output-on-failure --build-config RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		910A41151295C5F9742C25BD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  /opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		95F0B418824007E8CC9D7318 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B5811C6730AA1119BAFBEA25 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  make -f /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  make -f /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  make -f /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  make -f /Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		BA105EF39DA330615C9ABC8C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		BF5118F54E13CAF93CF2DF3C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C6A7AC776DF3D20649019E4E /* Generate CMakeFiles/check_format */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/check_format";
+			outputPaths = (
+/Users/xuzhongping/Desktop/dev/myGithub/ccache/CMakeFiles/check_format			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  misc/format-files --all --check
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  misc/format-files --all --check
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  misc/format-files --all --check
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xuzhongping/Desktop/dev/myGithub/ccache
+  misc/format-files --all --check
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DEBFEBCBB40432BA2F583ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9716D89674845CAA35321CE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/base32hex.c */,
+				122FC05B345E483AB2CCD0E2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/format.cpp */,
+				2E16A09D98894251BE630FD5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/getopt_long.c */,
+				1EEABF8D7BEF455886BF288C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/httplib.cpp */,
+				78BC4DC1BCBD4B09B57DB0D5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/url.cpp */,
+				1513E051D9D84AA792F44FF1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610077015A9241DEBD6DFA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2F8ACCA8E64DC68357C5A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/TestUtil.cpp */,
+				E1190F3B18F744E78DE3BC8B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/main.cpp */,
+				AADA4800972E402DA84CED26 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Args.cpp */,
+				0B8D056270AE4FF78E46BAA0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_AtomicFile.cpp */,
+				267169F8A2C64828A9C32C63 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Config.cpp */,
+				79272D8245B24419AB7872DC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Depfile.cpp */,
+				EB82332D70FC4356A0415D2A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_FormatNonstdStringView.cpp */,
+				65599EB07BF24A0994C609B5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Hash.cpp */,
+				27A789B13CCC4F7BB3C8CAB5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_InodeCache.cpp */,
+				1627FAE85F86440F8BABDE02 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Lockfile.cpp */,
+				9470A6A579EB4A3F9C9FDB14 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_NullCompression.cpp */,
+				6848C2E917104A899DBE8BD6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Stat.cpp */,
+				A64E8BF69D8D4BC4B565E166 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_Util.cpp */,
+				C342B2A648C940CE890692EE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ZstdCompression.cpp */,
+				EC24E00791D645DF89E55814 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_argprocessing.cpp */,
+				79ED9750EDE54508A059899F /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_ccache.cpp */,
+				21A8AF8A24D94494A4EBA5AA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compopt.cpp */,
+				A4CFB9065D104C93A6EBA3AF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_compression_types.cpp */,
+				F36AA14CEABE40DD8DC452C5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_Statistics.cpp */,
+				DDCA0DFE82C5425A8D4E8289 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatisticsCounters.cpp */,
+				D0AE7C477B5743449554CD00 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_core_StatsLog.cpp */,
+				6CBEC62803184AC6A97C4124 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_hashutil.cpp */,
+				1784F04969B44A75A657CD31 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_StatsFile.cpp */,
+				496E1E38AFBB4067941BDB73 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_storage_primary_util.cpp */,
+				6DD0AD6EA7B349979A75D3BB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_TextTable.cpp */,
+				BC9821424F8D420C929B4D0E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_Tokenizer.cpp */,
+				DC9F4ED7BBBA4B519AF77B20 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_128.cpp */,
+				57BEFA272DB84906AAE1DE8E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_XXH3_64.cpp */,
+				ECAE7310486F426D87D34A2A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_expected.cpp */,
+				1F72C99AF00A47A9BB343DAB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_path.cpp */,
+				8D7F93831C014773AC8B1246 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest/test_util_string.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F9AC7B18FFC4AA9A9A31BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCF9B69DE6C4F32967C7F1D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB7CEBB16A349B9A222E787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F20564843DD45B6BB59E267 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Args.cpp */,
+				249DBFA729D54895A51C6B57 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/AtomicFile.cpp */,
+				E736C7D3C15542189E0B970A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Config.cpp */,
+				F9A2CCA0050942F2B9F06646 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Context.cpp */,
+				771529A9FF59453E8AF84D8E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Depfile.cpp */,
+				1814CE8584D94688AC499038 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Fd.cpp */,
+				55AAEB21885A4A37892B5F34 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Hash.cpp */,
+				775CFF50E14746AE8F6A8E1A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/InodeCache.cpp */,
+				11975A09B71146C19C28EC64 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Lockfile.cpp */,
+				EA16B1EEA1514CB58490A6FF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Logging.cpp */,
+				325B0598198C4F58AA4018C1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Manifest.cpp */,
+				CF0CCC18DE9D4036921FD143 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ProgressBar.cpp */,
+				9B4499C231BD473BB6B9453A /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Result.cpp */,
+				A35F52C633014E20B8AA810D /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultDumper.cpp */,
+				2F44A237EC934F488D0BC015 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultExtractor.cpp */,
+				3D9263B7DA9E41A39A436CB1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ResultRetriever.cpp */,
+				C415AA4ACDE948B6BA3CB5D4 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/SignalHandler.cpp */,
+				447D824DA8A04E4395136605 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Stat.cpp */,
+				C903C94921124F8DB16A4550 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/TemporaryFile.cpp */,
+				A34CB28B8BB3420F8F0508BA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ThreadPool.cpp */,
+				020E4259C9184B8CB6A9A645 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Util.cpp */,
+				2AFCBF6584214AC2B0186D51 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/argprocessing.cpp */,
+				1AC4B2526E7B402583C9468B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/assertions.cpp */,
+				E7052E9BF8514190810AF2A2 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/ccache.cpp */,
+				321169141C23433E8B2DC2AF /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compopt.cpp */,
+				DCDE65F03FBD4A33A0525CC0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Compressor.cpp */,
+				E096A66EFFDC458DAC29B1F4 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/Decompressor.cpp */,
+				335A6CC069EA497B92CB0F67 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullCompressor.cpp */,
+				FF9EF01451BA422095DDA6EE /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/NullDecompressor.cpp */,
+				B9EED7C8DAC64F72AC53BB48 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdCompressor.cpp */,
+				82C8669F4C0D43A1B1401750 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/ZstdDecompressor.cpp */,
+				91BF74040A234F9BA0A573D8 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/compression/types.cpp */,
+				BC7EDD2270774D659530C685 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryHeader.cpp */,
+				4D2AC80DB13D4EE8B4F21766 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryReader.cpp */,
+				D471FD1184F4410AAED6D787 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/CacheEntryWriter.cpp */,
+				E0E5632A9D8242B392ADD0B9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/Statistics.cpp */,
+				6561324ACBCE4A2295B3FC5B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatisticsCounters.cpp */,
+				6B1FEEFB5E5649C087FD3CCB /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/StatsLog.cpp */,
+				2D00874D523C4AF6BF8E103B /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/mainoptions.cpp */,
+				881973B6377D48499799CAA9 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/core/types.cpp */,
+				CE8479F9E0094E07A8E65425 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/execute.cpp */,
+				1565231FCAA6436F838467FC /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/hashutil.cpp */,
+				156EE2A4BA3B4711B51EC410 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/language.cpp */,
+				6F16BDDB3DBA4CDFABDCEB42 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/Storage.cpp */,
+				A352F464B4A3449F9697ED8E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/CacheFile.cpp */,
+				DA3399ECCDE849159C12CB64 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage.cpp */,
+				008B8E0E4A8C482C98C7B514 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_cleanup.cpp */,
+				CE9CF63F9BA8461FB8C26B7C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_compress.cpp */,
+				7B86608C1D1541C899E5F138 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/PrimaryStorage_statistics.cpp */,
+				6E445717E9814AE292A67F11 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/StatsFile.cpp */,
+				A2504CD6D91846C0B8864ED6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/primary/util.cpp */,
+				8A6CB372B6334666924E3622 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/FileStorage.cpp */,
+				45ECFE79DD1040F99B5E47A0 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/HttpStorage.cpp */,
+				C9DFE421B00E44489890E67C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/RedisStorage.cpp */,
+				3D3AA98C53D54DE3B4A2EEE6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/storage/secondary/SecondaryStorage.cpp */,
+				EB802B5CE85741C7B8DED546 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/TextTable.cpp */,
+				120009E9706B4F89B5768AE1 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/Tokenizer.cpp */,
+				C5D7476735114B948A39EAF5 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/file.cpp */,
+				A0B90C7553EF4F3FA5D429B6 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/path.cpp */,
+				0DD9AF0A5A5A4401A1DBAA61 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/util/string.cpp */,
+				CFBBBB411E23436B990D5086 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/version.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA2AD2994FB48D2832A0202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFD06CB289C41A8A76839EA /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3.c */,
+				C022490D13C34D17ABB7031C /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_dispatch_ccache.c */,
+				4323325EECE145F6B5A2194E /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_neon.c */,
+				B5FF5C25F9604F8DB0C74C32 /* /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/blake3_portable.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041B8EADCB7A4AA6A7184AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09CAF60DABC946BF8BC024B1 /* third_party */;
+			targetProxy = 166D33480DA64401BEBF1808 /* PBXContainerItemProxy */;
+		};
+		168461D7E3704C92B6516262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C9A67A831C49C69B2804C0 /* blake3 */;
+			targetProxy = CD364E65A0F64AC4B2623CF7 /* PBXContainerItemProxy */;
+		};
+		2DC27C5395D04885BD3554EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE0085CFE12460A97F0ADF7 /* ccache */;
+			targetProxy = 1FD1CF3AE31C488290282379 /* PBXContainerItemProxy */;
+		};
+		312E4DC1C5AD41D5B6D2B3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = 1CC8FC4B6936481DB4D179EF /* PBXContainerItemProxy */;
+		};
+		3C258824EB074651A2E33CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D7C43B078242DAA0C14841 /* ccache_framework */;
+			targetProxy = A376E60723494D4E95421F6B /* PBXContainerItemProxy */;
+		};
+		3F25135C5A21433D956FB107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = 2E9B17200C654C4B9612A4A2 /* PBXContainerItemProxy */;
+		};
+		41DD3A1EE1914D2AB42EACC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCE4A518EC74D7697833C21 /* unittest */;
+			targetProxy = 8E8C53F5A8634ECB9838E057 /* PBXContainerItemProxy */;
+		};
+		4BD7C06DE2C442D5887F19F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C9A67A831C49C69B2804C0 /* blake3 */;
+			targetProxy = CD6EAECBE19F45A3A138F3AF /* PBXContainerItemProxy */;
+		};
+		5F4BD0BA546645FFACAE22FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09CAF60DABC946BF8BC024B1 /* third_party */;
+			targetProxy = 57340335B2754203ABC311EE /* PBXContainerItemProxy */;
+		};
+		6EC0B95E825C49EE985A0321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09CAF60DABC946BF8BC024B1 /* third_party */;
+			targetProxy = A93348AC80374198821AC6E9 /* PBXContainerItemProxy */;
+		};
+		90EC593C28E14390BE8045BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE0085CFE12460A97F0ADF7 /* ccache */;
+			targetProxy = 80B6BA6EEE0E4F7C8430B6C3 /* PBXContainerItemProxy */;
+		};
+		90EF91B40A0940B4BE0ACFD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D7C43B078242DAA0C14841 /* ccache_framework */;
+			targetProxy = 3AF9538B163C484BA728A24F /* PBXContainerItemProxy */;
+		};
+		945712858E1640D792518E7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = CF565D7005B449AD84F418DB /* PBXContainerItemProxy */;
+		};
+		97B609BFB8A74C76AD0B7598 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C9A67A831C49C69B2804C0 /* blake3 */;
+			targetProxy = 9AC19E31A1224DFABF319021 /* PBXContainerItemProxy */;
+		};
+		A45A5679682B45C09D5962E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15FD24D1D6A4E21A4BF2BF7 /* ALL_BUILD */;
+			targetProxy = 484DEADF7FC348C59DE261BF /* PBXContainerItemProxy */;
+		};
+		CA446A883712404BB77EF67C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFCE4A518EC74D7697833C21 /* unittest */;
+			targetProxy = A57E306F42B5470BA79FB0FB /* PBXContainerItemProxy */;
+		};
+		CC6E268EEE2E44A8A835B4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32C9A67A831C49C69B2804C0 /* blake3 */;
+			targetProxy = AC9DD16723184D3B8034A220 /* PBXContainerItemProxy */;
+		};
+		D1D1B37E8BFD4861A8E5A6CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = 1D37C12FE64A48D586D3F8AD /* PBXContainerItemProxy */;
+		};
+		D34767AFC318404BB97E1A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D7C43B078242DAA0C14841 /* ccache_framework */;
+			targetProxy = EB0FA9E8FC6E45B09BE8F011 /* PBXContainerItemProxy */;
+		};
+		D4648D1DAA114C4597E8A9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = 84292AC1408546E3B502EE22 /* PBXContainerItemProxy */;
+		};
+		DA84B611184A478DABA1788C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15FD24D1D6A4E21A4BF2BF7 /* ALL_BUILD */;
+			targetProxy = 79CAFC5885934988A5554F4A /* PBXContainerItemProxy */;
+		};
+		E22E68E544394C2285A6BF68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = 3E0EF02572F848AEA026E710 /* PBXContainerItemProxy */;
+		};
+		E4C3C78161524789BBD8A31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09CAF60DABC946BF8BC024B1 /* third_party */;
+			targetProxy = 3216B0E053B44FA88C0B09F5 /* PBXContainerItemProxy */;
+		};
+		EF4B072E67F0465F96CCE564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = 7CD5C4905B804FCD93220B37 /* PBXContainerItemProxy */;
+		};
+		F6DCDA85A58A44079FE7B354 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = 4A21E3F6B49B4765BE526960 /* PBXContainerItemProxy */;
+		};
+		FDC68015B1C747BBBE1EE5F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 329168F3448243A6A9260BC0 /* ZERO_CHECK */;
+			targetProxy = 666D2448D1A94532B5381F42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0316E4DAA9C1441F98BA7197 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/RelWithDebInfo/libccache_framework.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/RelWithDebInfo/libthird_party.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/RelWithDebInfo/libblake3.a,/opt/homebrew/lib/libzstd.dylib,/opt/homebrew/Cellar/hiredis/1.0.2/lib/libhiredis.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0C525C68AA5645E4B7C40BDF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		15F9300410094B93A5DAAE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		17460B01A2814D2CBF4BD3AD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/SYSTEM,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = third_party;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		17BC524AFECC4D2890A8172B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",HAVE_REDIS_STORAGE_BACKEND,XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccache_framework;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1BA287C1DC6F4750A6D43781 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1E51F7CB1E354BB7836936D2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		21A5B96EDD244CAB95F9E75D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_format;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		313A56E3101A48819E443D54 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BLAKE3_NO_SSE2,BLAKE3_NO_SSE41,BLAKE3_NO_AVX2,BLAKE3_NO_AVX512,BLAKE3_USE_NEON,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = blake3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		32B1116B6B384786B2D54D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		33B2CC1DA61B4640B984E9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CC = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-C";
+				CXX = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-CXX";
+				LD = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-C";
+				LDPLUSPLUS = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-CXX";
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk;
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/build;
+			};
+			name = Release;
+		};
+		35FE21A2270B42089B7B1DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = format;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3D56E9A26DCB4A90802CD98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3E99C512D83D4C70BBBD18FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4567CA4AE3FC4DE4A6359F4C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CC = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-C";
+				CXX = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-CXX";
+				LD = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-C";
+				LDPLUSPLUS = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-CXX";
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk;
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/build;
+			};
+			name = RelWithDebInfo;
+		};
+		4BB2761FC4C044A3B288A650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CC = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-C";
+				CXX = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-CXX";
+				LD = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-C";
+				LDPLUSPLUS = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-CXX";
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk;
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/build;
+			};
+			name = Debug;
+		};
+		4C9CD30988A44BD8B95F4385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		567B04F359B2475688D6ED8A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5ACF819492214DB9A1A6ED3D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/MinSizeRel/libccache_framework.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/MinSizeRel/libthird_party.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/MinSizeRel/libblake3.a,/opt/homebrew/lib/libzstd.dylib,/opt/homebrew/Cellar/hiredis/1.0.2/lib/libhiredis.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E03755D885845D5A482C542 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_format;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		62EF6FAD4B6A4A139BA677FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		64694185933743F6BA011B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6941ED7D2628432587D8D9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		69ADB72877104A1B84DC8160 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		75D666E44D8C4627AAB892F5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		78E221433AF649F4A7614D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/SYSTEM,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = third_party;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		791B4102FCFC4F96B7236F3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = format;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		79E4B0188BC04028847DD11C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CC = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-C";
+				CXX = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-CXX";
+				LD = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-C";
+				LDPLUSPLUS = "/Users/xuzhongping/Desktop/dev/myGithub/ccache/launch-CXX";
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk;
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/build;
+			};
+			name = MinSizeRel;
+		};
+		7EEFE27FD6BD4004842CBF7D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = format;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7EF135151CDC4BCFAE345C66 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = format;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		83122BE2C2C34C44B5537651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_format;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8C9D7F32E681405183D6A9C7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BLAKE3_NO_SSE2,BLAKE3_NO_SSE41,BLAKE3_NO_AVX2,BLAKE3_NO_AVX512,BLAKE3_USE_NEON,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = blake3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		93339807A91B4A54805A95F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A2B46707A0AE472F863FC81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Release/libccache_framework.a,/opt/homebrew/lib/libzstd.dylib,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/Release/libthird_party.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/Release/libblake3.a,/opt/homebrew/Cellar/hiredis/1.0.2/lib/libhiredis.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccache;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A903931444064F508F2F5136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Release/libccache_framework.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/Release/libthird_party.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/Release/libblake3.a,/opt/homebrew/lib/libzstd.dylib,/opt/homebrew/Cellar/hiredis/1.0.2/lib/libhiredis.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		ADAD723CCA0741AAA06CBE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BLAKE3_NO_SSE2,BLAKE3_NO_SSE41,BLAKE3_NO_AVX2,BLAKE3_NO_AVX512,BLAKE3_USE_NEON,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("   -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = blake3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AF00DD4E3E10415DBDCC9461 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B3D415FB932F4FA893E0CBD9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B7672139A67B4E2A91E54B6C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B93F5A462A2E40EB99888A24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",HAVE_REDIS_STORAGE_BACKEND,XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccache_framework;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C0E8A35A0EB24B609356AD92 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C7B44E3D6CAD4A128F7A5778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",BLAKE3_NO_SSE2,BLAKE3_NO_SSE41,BLAKE3_NO_AVX2,BLAKE3_NO_AVX512,BLAKE3_USE_NEON,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = blake3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CDF22FDDE73E4C86B30BAB22 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D14E1E0600DA4A0CACE70625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check_format;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D21783F244F94B86AEF8DE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src,"$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Debug/libccache_framework.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/Debug/libthird_party.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/Debug/libblake3.a,/opt/homebrew/lib/libzstd.dylib,/opt/homebrew/Cellar/hiredis/1.0.2/lib/libhiredis.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = unittest;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/unittest;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D2A7A7E82E824C6A956F3607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = check;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DB98B1F36DAA49B69435AEB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",HAVE_REDIS_STORAGE_BACKEND,XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccache_framework;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DCB076FC907E40AA93C864E1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/MinSizeRel/libccache_framework.a,/opt/homebrew/lib/libzstd.dylib,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/MinSizeRel/libthird_party.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/MinSizeRel/libblake3.a,/opt/homebrew/Cellar/hiredis/1.0.2/lib/libhiredis.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccache;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD4E8C305A6C44A281533633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EC63190D991F46A0A289C05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/SYSTEM,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = third_party;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EE3F4BDD972E47B2B3C9EEC6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/RelWithDebInfo/libccache_framework.a,/opt/homebrew/lib/libzstd.dylib,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/RelWithDebInfo/libthird_party.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/RelWithDebInfo/libblake3.a,/opt/homebrew/Cellar/hiredis/1.0.2/lib/libhiredis.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccache;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F212369A61704A5D9A188BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/Debug/libccache_framework.a,/opt/homebrew/lib/libzstd.dylib,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/Debug/libthird_party.a,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/blake3/Debug/libblake3.a,/opt/homebrew/Cellar/hiredis/1.0.2/lib/libhiredis.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccache;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F4ADD54C70E9416A934BF381 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'nssv_CONFIG_SELECT_STRING_VIEW=nssv_STRING_VIEW_NONSTD'",HAVE_REDIS_STORAGE_BACKEND,XXH_STATIC_LINKING_ONLY,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' -Wall '-D_FILE_OFFSET_BITS=64' '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ccache_framework;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src;
+				SYSTEM_HEADER_SEARCH_PATHS = (/opt/homebrew/include,/opt/homebrew/Cellar/hiredis/1.0.2/include,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F664BAE8AA78456DB6997937 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/xuzhongping/Desktop/dev/myGithub/ccache,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party,/Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party/SYSTEM,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = ("       -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -include '/Users/xuzhongping/Desktop/dev/myGithub/ccache/config.h' '-std=c++14' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = third_party;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache/src/third_party;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FB34062E82A947FFB1614B6C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FC50EB3FA869466BA60189B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/xuzhongping/Desktop/dev/myGithub/ccache;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A441A204C46420091082241 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D56E9A26DCB4A90802CD98B /* Debug */,
+				DD4E8C305A6C44A281533633 /* Release */,
+				69ADB72877104A1B84DC8160 /* MinSizeRel */,
+				75D666E44D8C4627AAB892F5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D0EF26B34384FC9A62F8437 /* Build configuration list for PBXNativeTarget "blake3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAD723CCA0741AAA06CBE13 /* Debug */,
+				C7B44E3D6CAD4A128F7A5778 /* Release */,
+				8C9D7F32E681405183D6A9C7 /* MinSizeRel */,
+				313A56E3101A48819E443D54 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DD581A8B8F54D0A88727A9B /* Build configuration list for PBXNativeTarget "ccache_framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB98B1F36DAA49B69435AEB5 /* Debug */,
+				B93F5A462A2E40EB99888A24 /* Release */,
+				17BC524AFECC4D2890A8172B /* MinSizeRel */,
+				F4ADD54C70E9416A934BF381 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1E99962C622D4CE7801E7FDF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6941ED7D2628432587D8D9AF /* Debug */,
+				93339807A91B4A54805A95F9 /* Release */,
+				B7672139A67B4E2A91E54B6C /* MinSizeRel */,
+				1E51F7CB1E354BB7836936D2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E06583B379D4DAA8FB45412 /* Build configuration list for PBXNativeTarget "ccache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F212369A61704A5D9A188BF3 /* Debug */,
+				A2B46707A0AE472F863FC81E /* Release */,
+				DCB076FC907E40AA93C864E1 /* MinSizeRel */,
+				EE3F4BDD972E47B2B3C9EEC6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48E0D79221934CCB9C821FB6 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E99C512D83D4C70BBBD18FF /* Debug */,
+				64694185933743F6BA011B6F /* Release */,
+				1BA287C1DC6F4750A6D43781 /* MinSizeRel */,
+				CDF22FDDE73E4C86B30BAB22 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5F38CBB8AD0D49D582F78B87 /* Build configuration list for PBXAggregateTarget "check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62EF6FAD4B6A4A139BA677FB /* Debug */,
+				D2A7A7E82E824C6A956F3607 /* Release */,
+				0C525C68AA5645E4B7C40BDF /* MinSizeRel */,
+				567B04F359B2475688D6ED8A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7EC5A547AD8B4830AF5CDAFE /* Build configuration list for PBXProject "ccache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB2761FC4C044A3B288A650 /* Debug */,
+				33B2CC1DA61B4640B984E9D9 /* Release */,
+				79E4B0188BC04028847DD11C /* MinSizeRel */,
+				4567CA4AE3FC4DE4A6359F4C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80D645FD74AF4CC8A2D11C24 /* Build configuration list for PBXNativeTarget "third_party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E221433AF649F4A7614D24 /* Debug */,
+				EC63190D991F46A0A289C05F /* Release */,
+				17460B01A2814D2CBF4BD3AD /* MinSizeRel */,
+				F664BAE8AA78456DB6997937 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A8D55737FEC64ED79306F44E /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F9300410094B93A5DAAE8D /* Debug */,
+				4C9CD30988A44BD8B95F4385 /* Release */,
+				C0E8A35A0EB24B609356AD92 /* MinSizeRel */,
+				B3D415FB932F4FA893E0CBD9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C22687F94F954DB2823AFC82 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC50EB3FA869466BA60189B7 /* Debug */,
+				32B1116B6B384786B2D54D2D /* Release */,
+				FB34062E82A947FFB1614B6C /* MinSizeRel */,
+				AF00DD4E3E10415DBDCC9461 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D92EC0F1F2904FBDB747969D /* Build configuration list for PBXAggregateTarget "check_format" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14E1E0600DA4A0CACE70625 /* Debug */,
+				83122BE2C2C34C44B5537651 /* Release */,
+				5E03755D885845D5A482C542 /* MinSizeRel */,
+				21A5B96EDD244CAB95F9E75D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E939564899E644E3975865D2 /* Build configuration list for PBXNativeTarget "unittest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21783F244F94B86AEF8DE5A /* Debug */,
+				A903931444064F508F2F5136 /* Release */,
+				5ACF819492214DB9A1A6ED3D /* MinSizeRel */,
+				0316E4DAA9C1441F98BA7197 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F23E64361EF544B9B7A1673F /* Build configuration list for PBXAggregateTarget "format" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FE21A2270B42089B7B1DDB /* Debug */,
+				791B4102FCFC4F96B7236F3F /* Release */,
+				7EF135151CDC4BCFAE345C66 /* MinSizeRel */,
+				7EEFE27FD6BD4004842CBF7D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 301B79C116E34B48BCEA20CE /* Project object */;
+}
