@@ -56,22 +56,26 @@ public:
   Config config;
 
   // Current working directory as returned by getcwd(3).
+  // 当前工作目录
   std::string actual_cwd;
 
   // Current working directory according to $PWD (falling back to getcwd(3)).
   std::string apparent_cwd;
 
   // The original argument list.
+  // 原始参数列表
   Args orig_args;
 
-  // Time of compilation. Used to see if include files have changed after
-  // compilation.
+  // Time of compilation. Used to see if include files have changed after compilation.
+  // 编译时间，用于检测include的文件在编译后是否发生了改变
   time_t time_of_compilation = 0;
 
   // Files included by the preprocessor and their hashes.
+  // 预处理器include的文件与对应的hash值
   std::unordered_map<std::string, Digest> included_files;
 
   // Uses absolute path for some include files.
+  // 对部分include文件使用绝对路径
   bool has_absolute_include_headers = false;
 
   // Have we tried and failed to get colored diagnostics?
@@ -84,6 +88,7 @@ public:
   std::string cpp_stderr;
 
   // Headers (or directories with headers) to ignore in manifest mode.
+  // manifest模式下忽略的头文件或头文件目录
   std::vector<std::string> ignore_header_paths;
 
   // Storage (fronting primary and secondary storage backends).
@@ -96,6 +101,7 @@ public:
 
   // PID of currently executing compiler that we have started, if any. 0 means
   // no ongoing compilation.
+  // 当前正在运行的编译器的pid
   pid_t compiler_pid = 0;
 
   // Files used by the hash debugging functionality.
