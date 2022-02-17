@@ -52,7 +52,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "clang -E ${SRCROOT}/learn/simple_code/main.c -o ${SRCROOT}/learn/simple_code/main.i"
+            argument = "clang -c ${SRCROOT}/learn/simple_code/main.c"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
@@ -61,6 +61,11 @@
             key = "CCACHE_DIR"
             value = "${SRCROOT}/learn/simple_code/ccache"
             isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "CCACHE_DEPEND"
+            value = "true"
+            isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "CCACHE_LOGFILE"

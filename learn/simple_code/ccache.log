@@ -1,136 +1,335 @@
-[2022-02-16T05:57:56.650709 1996 ] === CCACHE 4.2.1 STARTED =========================================
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) absolute_paths_in_stderr = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) base_dir = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (environment) cache_dir = ./cache
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) compiler = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) compiler_check = mtime
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) compiler_type = auto
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) compression = true
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) compression_level = 0
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) cpp_extension = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) debug = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) debug_dir = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (environment) depend_mode = true
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) direct_mode = true
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) disable = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) extra_files_to_hash = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) file_clone = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) hard_link = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) hash_dir = true
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) ignore_headers_in_manifest = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) ignore_options = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) inode_cache = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) keep_comments_cpp = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) limit_multiple = 0.8
-[2022-02-16T05:57:56.650709 1996 ] Config: (environment) log_file = ./ccache.log
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) max_files = 0
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) max_size = 5.0G
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) path = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) pch_external_checksum = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) prefix_command = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) prefix_command_cpp = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) read_only = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) read_only_direct = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) recache = false
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) run_second_cpp = true
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) sloppiness = 
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) stats = true
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) temporary_dir = ./cache/tmp
-[2022-02-16T05:57:56.650709 1996 ] Config: (default) umask = 
-[2022-02-16T05:57:56.650847 1996 ] Command line: ccache clang -c main.c -MD
-[2022-02-16T05:57:56.650862 1996 ] Hostname: xuzhongngdeMini
-[2022-02-16T05:57:56.650870 1996 ] Working directory: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code
-[2022-02-16T05:57:56.650877 1996 ] Compiler type: clang
-[2022-02-16T05:57:56.650939 1996 ] Source file: main.c
-[2022-02-16T05:57:56.650948 1996 ] Dependency file: main.d
-[2022-02-16T05:57:56.650956 1996 ] Object file: main.o
-[2022-02-16T05:57:56.650983 1996 ] Trying direct lookup
-[2022-02-16T05:57:56.651025 1996 ] No manifest with name c82b12uh3q8lfkhjf7k58kbuh7q96st10 in the cache
-[2022-02-16T05:57:56.651036 1996 ] Running real compiler
-[2022-02-16T05:57:56.651179 1996 ] Executing /usr/bin/clang -c main.c -MD -fcolor-diagnostics
-[2022-02-16T05:57:56.691060 1996 ] Base dir not set, skip using relative paths
-[2022-02-16T05:57:56.691258 1996 ] Using default compression level 1
-[2022-02-16T05:57:56.691330 1996 ] Storing result main.o
-[2022-02-16T05:57:56.691348 1996 ] Storing embedded file #0 .o (784 bytes) from main.o
-[2022-02-16T05:57:56.691382 1996 ] Storing result main.d
-[2022-02-16T05:57:56.691397 1996 ] Storing embedded file #1 .d (4429 bytes) from main.d
-[2022-02-16T05:57:56.691729 1996 ] Stored in cache: ./cache/c/5/55jot82qq7qnd25bttvi14rs189drl0R
-[2022-02-16T05:57:56.691816 1996 ] Adding result name to ./cache/c/8/2b12uh3q8lfkhjf7k58kbuh7q96st10M
-[2022-02-16T05:57:56.692108 1996 ] Using default compression level 1
-[2022-02-16T05:57:56.692343 1996 ] Result: cache miss
-[2022-02-16T05:57:56.692434 1996 ] Acquired lock ./cache/c/stats.lock
-[2022-02-16T05:57:56.692686 1996 ] Releasing lock ./cache/c/stats.lock
-[2022-02-16T05:57:56.692724 1996 ] Unlink ./cache/c/stats.lock
-[2022-02-16T05:57:56.692775 1996 ] Acquired lock ./cache/c/5/stats.lock
-[2022-02-16T05:57:56.693000 1996 ] Releasing lock ./cache/c/5/stats.lock
-[2022-02-16T05:57:56.693037 1996 ] Unlink ./cache/c/5/stats.lock
-[2022-02-16T05:57:56.693073 1996 ] Unlink ./cache/tmp/tmp.stderr.2nyYFa
-[2022-02-16T05:57:56.693100 1996 ] Unlink ./cache/tmp/tmp.stdout.zyaTDd
-[2022-02-16T06:00:06.469295 2095 ] === CCACHE 4.2.1 STARTED =========================================
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) absolute_paths_in_stderr = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) base_dir = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (environment) cache_dir = ./cache
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) compiler = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) compiler_check = mtime
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) compiler_type = auto
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) compression = true
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) compression_level = 0
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) cpp_extension = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) debug = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) debug_dir = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (environment) depend_mode = true
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) direct_mode = true
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) disable = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) extra_files_to_hash = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) file_clone = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) hard_link = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) hash_dir = true
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) ignore_headers_in_manifest = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) ignore_options = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) inode_cache = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) keep_comments_cpp = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) limit_multiple = 0.8
-[2022-02-16T06:00:06.469295 2095 ] Config: (environment) log_file = ./ccache.log
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) max_files = 0
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) max_size = 5.0G
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) path = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) pch_external_checksum = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) prefix_command = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) prefix_command_cpp = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) read_only = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) read_only_direct = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) recache = false
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) run_second_cpp = true
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) sloppiness = 
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) stats = true
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) temporary_dir = ./cache/tmp
-[2022-02-16T06:00:06.469295 2095 ] Config: (default) umask = 
-[2022-02-16T06:00:06.469421 2095 ] Command line: ccache clang -c main.c -MD
-[2022-02-16T06:00:06.469436 2095 ] Hostname: xuzhongngdeMini
-[2022-02-16T06:00:06.469444 2095 ] Working directory: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code
-[2022-02-16T06:00:06.469451 2095 ] Compiler type: clang
-[2022-02-16T06:00:06.469507 2095 ] Source file: main.c
-[2022-02-16T06:00:06.469516 2095 ] Dependency file: main.d
-[2022-02-16T06:00:06.469534 2095 ] Object file: main.o
-[2022-02-16T06:00:06.469558 2095 ] Trying direct lookup
-[2022-02-16T06:00:06.469601 2095 ] Looking for result name in ./cache/c/8/2b12uh3q8lfkhjf7k58kbuh7q96st10M
-[2022-02-16T06:00:06.470814 2095 ] Got result name from manifest
-[2022-02-16T06:00:06.470842 2095 ] No result with name c555jot82qq7qnd25bttvi14rs189drl0 in the cache
-[2022-02-16T06:00:06.470850 2095 ] Running real compiler
-[2022-02-16T06:00:06.470998 2095 ] Executing /usr/bin/clang -c main.c -MD -fcolor-diagnostics
-[2022-02-16T06:00:06.510367 2095 ] Base dir not set, skip using relative paths
-[2022-02-16T06:00:06.510507 2095 ] Using default compression level 1
-[2022-02-16T06:00:06.510553 2095 ] Storing result main.o
-[2022-02-16T06:00:06.510565 2095 ] Storing embedded file #0 .o (784 bytes) from main.o
-[2022-02-16T06:00:06.510589 2095 ] Storing result main.d
-[2022-02-16T06:00:06.510598 2095 ] Storing embedded file #1 .d (4429 bytes) from main.d
-[2022-02-16T06:00:06.510774 2095 ] Stored in cache: ./cache/c/5/55jot82qq7qnd25bttvi14rs189drl0R
-[2022-02-16T06:00:06.510819 2095 ] Adding result name to ./cache/c/8/2b12uh3q8lfkhjf7k58kbuh7q96st10M
-[2022-02-16T06:00:06.511021 2095 ] The entry already exists in the manifest, not adding
-[2022-02-16T06:00:06.511032 2095 ] Failed to add result name to ./cache/c/8/2b12uh3q8lfkhjf7k58kbuh7q96st10M
-[2022-02-16T06:00:06.511044 2095 ] Result: cache miss
-[2022-02-16T06:00:06.511113 2095 ] Acquired lock ./cache/c/stats.lock
-[2022-02-16T06:00:06.511350 2095 ] Releasing lock ./cache/c/stats.lock
-[2022-02-16T06:00:06.511386 2095 ] Unlink ./cache/c/stats.lock
-[2022-02-16T06:00:06.511418 2095 ] Unlink ./cache/tmp/tmp.stderr.Olo3c7
-[2022-02-16T06:00:06.511445 2095 ] Unlink ./cache/tmp/tmp.stdout.wOrBj6
+[2022-02-18T07:30:15.345651 6848 ] === CCACHE 4.2.1 STARTED =========================================
+[2022-02-18T07:30:15.345756 6848 ] Failed to stat ./cache: No such file or directory
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) absolute_paths_in_stderr = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) base_dir = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (environment) cache_dir = ./cache
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) compiler = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) compiler_check = mtime
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) compiler_type = auto
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) compression = true
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) compression_level = 0
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) cpp_extension = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) debug = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) debug_dir = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (environment) depend_mode = true
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) direct_mode = true
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) disable = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) extra_files_to_hash = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) file_clone = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) hard_link = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) hash_dir = true
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) ignore_headers_in_manifest = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) ignore_options = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) inode_cache = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) keep_comments_cpp = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) limit_multiple = 0.8
+[2022-02-18T07:30:15.345756 6848 ] Config: (environment) log_file = ./ccache.log
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) max_files = 0
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) max_size = 5.0G
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) path = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) pch_external_checksum = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) prefix_command = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) prefix_command_cpp = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) read_only = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) read_only_direct = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) recache = false
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) run_second_cpp = true
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) sloppiness = 
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) stats = true
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) temporary_dir = ./cache/tmp
+[2022-02-18T07:30:15.345756 6848 ] Config: (default) umask = 
+[2022-02-18T07:30:15.345809 6848 ] Command line: ccache clang -c main.c -MD
+[2022-02-18T07:30:15.345822 6848 ] Hostname: xuzhongngdeMini
+[2022-02-18T07:30:15.345829 6848 ] Working directory: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code
+[2022-02-18T07:30:15.345836 6848 ] Compiler type: clang
+[2022-02-18T07:30:15.345897 6848 ] Source file: main.c
+[2022-02-18T07:30:15.345906 6848 ] Dependency file: main.d
+[2022-02-18T07:30:15.345914 6848 ] Object file: main.o
+[2022-02-18T07:30:15.345941 6848 ] Trying direct lookup
+[2022-02-18T07:30:15.345984 6848 ] No manifest with name c82b12uh3q8lfkhjf7k58kbuh7q96st10 in the cache
+[2022-02-18T07:30:15.345995 6848 ] Running real compiler
+[2022-02-18T07:30:15.346199 6848 ] Executing /usr/bin/clang -c main.c -MD -fcolor-diagnostics
+[2022-02-18T07:30:15.386573 6848 ] Base dir not set, skip using relative paths
+[2022-02-18T07:30:15.386925 6848 ] Using default compression level 1
+[2022-02-18T07:30:15.387013 6848 ] Storing result main.o
+[2022-02-18T07:30:15.387032 6848 ] Storing embedded file #0 .o (784 bytes) from main.o
+[2022-02-18T07:30:15.387077 6848 ] Storing result main.d
+[2022-02-18T07:30:15.387092 6848 ] Storing embedded file #1 .d (4429 bytes) from main.d
+[2022-02-18T07:30:15.387387 6848 ] Stored in cache: ./cache/c/5/55jot82qq7qnd25bttvi14rs189drl0R
+[2022-02-18T07:30:15.387565 6848 ] Adding result name to ./cache/c/8/2b12uh3q8lfkhjf7k58kbuh7q96st10M
+[2022-02-18T07:30:15.387892 6848 ] Using default compression level 1
+[2022-02-18T07:30:15.388117 6848 ] Result: cache miss
+[2022-02-18T07:30:15.388205 6848 ] Acquired lock ./cache/c/stats.lock
+[2022-02-18T07:30:15.388516 6848 ] Releasing lock ./cache/c/stats.lock
+[2022-02-18T07:30:15.388613 6848 ] Unlink ./cache/c/stats.lock
+[2022-02-18T07:30:15.388671 6848 ] Acquired lock ./cache/c/stats.lock
+[2022-02-18T07:30:15.389315 6848 ] Releasing lock ./cache/c/stats.lock
+[2022-02-18T07:30:15.389362 6848 ] Unlink ./cache/c/stats.lock
+[2022-02-18T07:30:15.389404 6848 ] Unlink ./cache/tmp/tmp.stderr.6G2Nvb
+[2022-02-18T07:30:15.389458 6848 ] Unlink ./cache/tmp/tmp.stdout.5uFCwR
+[2022-02-18T07:30:41.909088 6881 ] === CCACHE 4.2.1 STARTED =========================================
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) absolute_paths_in_stderr = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) base_dir = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (environment) cache_dir = ./cache
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) compiler = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) compiler_check = mtime
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) compiler_type = auto
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) compression = true
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) compression_level = 0
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) cpp_extension = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) debug = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) debug_dir = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (environment) depend_mode = true
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) direct_mode = true
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) disable = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) extra_files_to_hash = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) file_clone = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) hard_link = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) hash_dir = true
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) ignore_headers_in_manifest = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) ignore_options = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) inode_cache = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) keep_comments_cpp = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) limit_multiple = 0.8
+[2022-02-18T07:30:41.909088 6881 ] Config: (environment) log_file = ./ccache.log
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) max_files = 0
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) max_size = 5.0G
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) path = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) pch_external_checksum = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) prefix_command = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) prefix_command_cpp = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) read_only = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) read_only_direct = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) recache = false
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) run_second_cpp = true
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) sloppiness = 
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) stats = true
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) temporary_dir = ./cache/tmp
+[2022-02-18T07:30:41.909088 6881 ] Config: (default) umask = 
+[2022-02-18T07:30:41.909395 6881 ] Command line: ccache clang -c main.c -MD
+[2022-02-18T07:30:41.909440 6881 ] Hostname: xuzhongngdeMini
+[2022-02-18T07:30:41.909456 6881 ] Working directory: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code
+[2022-02-18T07:30:41.909467 6881 ] Compiler type: clang
+[2022-02-18T07:30:41.909597 6881 ] Source file: main.c
+[2022-02-18T07:30:41.909610 6881 ] Dependency file: main.d
+[2022-02-18T07:30:41.909621 6881 ] Object file: main.o
+[2022-02-18T07:30:41.909661 6881 ] Trying direct lookup
+[2022-02-18T07:30:41.909739 6881 ] No manifest with name c82b12uh3q8lfkhjf7k58kbuh7q96st10 in the cache
+[2022-02-18T07:30:41.909751 6881 ] Running real compiler
+[2022-02-18T07:30:41.909935 6881 ] Executing /usr/bin/clang -c main.c -MD -fcolor-diagnostics
+[2022-02-18T07:30:41.963196 6881 ] Base dir not set, skip using relative paths
+[2022-02-18T07:30:41.963366 6881 ] Using default compression level 1
+[2022-02-18T07:30:41.963420 6881 ] Storing result main.o
+[2022-02-18T07:30:41.963430 6881 ] Storing embedded file #0 .o (784 bytes) from main.o
+[2022-02-18T07:30:41.963455 6881 ] Storing result main.d
+[2022-02-18T07:30:41.963464 6881 ] Storing embedded file #1 .d (4429 bytes) from main.d
+[2022-02-18T07:30:41.963729 6881 ] Stored in cache: ./cache/c/5/55jot82qq7qnd25bttvi14rs189drl0R
+[2022-02-18T07:30:41.963778 6881 ] Adding result name to ./cache/c/8/2b12uh3q8lfkhjf7k58kbuh7q96st10M
+[2022-02-18T07:30:41.963961 6881 ] Using default compression level 1
+[2022-02-18T07:30:41.964141 6881 ] Result: cache miss
+[2022-02-18T07:30:41.964213 6881 ] Acquired lock ./cache/c/stats.lock
+[2022-02-18T07:30:41.964445 6881 ] Releasing lock ./cache/c/stats.lock
+[2022-02-18T07:30:41.964481 6881 ] Unlink ./cache/c/stats.lock
+[2022-02-18T07:30:41.964533 6881 ] Acquired lock ./cache/c/5/stats.lock
+[2022-02-18T07:30:41.964804 6881 ] Releasing lock ./cache/c/5/stats.lock
+[2022-02-18T07:30:41.964841 6881 ] Unlink ./cache/c/5/stats.lock
+[2022-02-18T07:30:41.964872 6881 ] Unlink ./cache/tmp/tmp.stderr.upivx3
+[2022-02-18T07:30:41.964900 6881 ] Unlink ./cache/tmp/tmp.stdout.zXLNCX
+[2022-02-18T07:40:10.030216 7025 ] Failed to stat /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache: No such file or directory
+[2022-02-18T07:40:10.030271 7025 ] === CCACHE read_note.b5055d98+dirty STARTED =========================================
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) absolute_paths_in_stderr = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) base_dir = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (environment) cache_dir = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) compiler = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) compiler_check = mtime
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) compiler_type = auto
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) compression = true
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) compression_level = 0
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) cpp_extension = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) debug = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) debug_dir = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) depend_mode = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) direct_mode = true
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) disable = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) extra_files_to_hash = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) file_clone = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) hard_link = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) hash_dir = true
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) ignore_headers_in_manifest = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) ignore_options = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) inode_cache = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) keep_comments_cpp = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) limit_multiple = 0.8
+[2022-02-18T07:40:10.030271 7025 ] Config: (environment) log_file = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache.log
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) max_files = 0
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) max_size = 5.0G
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) namespace = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) path = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) pch_external_checksum = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) prefix_command = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) prefix_command_cpp = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) read_only = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) read_only_direct = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) recache = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) reshare = false
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) run_second_cpp = true
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) secondary_storage = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) sloppiness = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) stats = true
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) stats_log = 
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) temporary_dir = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/tmp
+[2022-02-18T07:40:10.030271 7025 ] Config: (default) umask = 
+[2022-02-18T07:40:10.030531 7025 ] Command line: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/Debug/ccache clang -c /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c
+[2022-02-18T07:40:10.030561 7025 ] Hostname: xuzhongngdeMini
+[2022-02-18T07:40:10.030570 7025 ] Working directory: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/Debug
+[2022-02-18T07:40:10.030579 7025 ] Compiler type: clang
+[2022-02-18T07:40:10.030666 7025 ] Source file: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c
+[2022-02-18T07:40:10.030679 7025 ] Object file: main.o
+[2022-02-18T07:40:10.030717 7025 ] Trying direct lookup
+[2022-02-18T07:40:10.030789 7025 ] No fa50c8imbmu9kfg0uedb4p8lcg03qr4ii in primary storage
+[2022-02-18T07:40:10.031266 7025 ] Running preprocessor
+[2022-02-18T07:40:10.031283 7025 ] Executing /usr/bin/clang -E /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c
+[2022-02-18T07:43:27.289384 7025 ] Got result key from preprocessor
+[2022-02-18T07:43:27.289467 7025 ] No 0935bem89jdaoep1p8fpd0be7nqo09vmu in primary storage
+[2022-02-18T07:43:27.289491 7025 ] Running real compiler
+[2022-02-18T07:43:27.289704 7025 ] Executing /usr/bin/clang -c -fcolor-diagnostics -o main.o /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c
+[2022-02-18T07:43:27.338643 7025 ] Using default compression level 1
+[2022-02-18T07:43:27.338761 7025 ] Storing result file main.o
+[2022-02-18T07:43:27.338785 7025 ] Storing embedded file #0 .o (784 bytes) from main.o
+[2022-02-18T07:43:27.339005 7025 ] Stored 0935bem89jdaoep1p8fpd0be7nqo09vmu in primary storage (/Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/0/9/35bem89jdaoep1p8fpd0be7nqo09vmuR)
+[2022-02-18T07:43:27.339191 7025 ] Adding result key to /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/f/a/50c8imbmu9kfg0uedb4p8lcg03qr4iiM
+[2022-02-18T07:43:27.339564 7025 ] Using default compression level 1
+[2022-02-18T07:43:27.339783 7025 ] Stored fa50c8imbmu9kfg0uedb4p8lcg03qr4ii in primary storage (/Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/f/a/50c8imbmu9kfg0uedb4p8lcg03qr4iiM)
+[2022-02-18T07:43:27.339919 7025 ] Result: cache_miss
+[2022-02-18T07:43:27.339933 7025 ] Result: direct_cache_miss
+[2022-02-18T07:43:27.339942 7025 ] Result: preprocessed_cache_miss
+[2022-02-18T07:43:27.339950 7025 ] Result: primary_storage_miss
+[2022-02-18T07:43:27.340058 7025 ] Acquired lock /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/f/stats.lock
+[2022-02-18T07:43:27.340437 7025 ] Releasing lock /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/f/stats.lock
+[2022-02-18T07:43:27.340487 7025 ] Unlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/f/stats.lock
+[2022-02-18T07:43:27.340567 7025 ] Acquired lock /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/0/stats.lock
+[2022-02-18T07:43:27.340796 7025 ] Releasing lock /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/0/stats.lock
+[2022-02-18T07:43:27.340840 7025 ] Unlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/0/stats.lock
+[2022-02-18T07:43:27.340888 7025 ] Unlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/tmp/tmp.stderr.nUsADP
+[2022-02-18T07:43:27.340926 7025 ] Unlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/tmp/tmp.stdout.FXn5Px
+[2022-02-18T07:43:27.340958 7025 ] Unlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/tmp/tmp.cpp_stderr.vlqqTD
+[2022-02-18T07:43:27.341009 7025 ] Unlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/tmp/tmp.cpp_stdout.zWn7Mk.i
+[2022-02-18T07:43:27.341092 7025 ] Unlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/tmp/tmp.cpp_stdout.zWn7Mk
+[2022-02-18T07:46:10.449623 7110 ] === CCACHE read_note.b5055d98+dirty STARTED =========================================
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) absolute_paths_in_stderr = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) base_dir = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (environment) cache_dir = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) compiler = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) compiler_check = mtime
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) compiler_type = auto
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) compression = true
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) compression_level = 0
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) cpp_extension = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) debug = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) debug_dir = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) depend_mode = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) direct_mode = true
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) disable = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) extra_files_to_hash = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) file_clone = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) hard_link = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) hash_dir = true
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) ignore_headers_in_manifest = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) ignore_options = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) inode_cache = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) keep_comments_cpp = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) limit_multiple = 0.8
+[2022-02-18T07:46:10.449623 7110 ] Config: (environment) log_file = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache.log
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) max_files = 0
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) max_size = 5.0G
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) namespace = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) path = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) pch_external_checksum = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) prefix_command = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) prefix_command_cpp = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) read_only = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) read_only_direct = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) recache = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) reshare = false
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) run_second_cpp = true
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) secondary_storage = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) sloppiness = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) stats = true
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) stats_log = 
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) temporary_dir = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/tmp
+[2022-02-18T07:46:10.449623 7110 ] Config: (default) umask = 
+[2022-02-18T07:46:10.450296 7110 ] Command line: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/Debug/ccache clang -c /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c
+[2022-02-18T07:46:10.450336 7110 ] Hostname: xuzhongngdeMini
+[2022-02-18T07:46:10.450346 7110 ] Working directory: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/Debug
+[2022-02-18T07:46:10.450364 7110 ] Compiler type: clang
+[2022-02-18T07:46:10.450682 7110 ] Source file: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c
+[2022-02-18T07:46:10.450704 7110 ] Object file: main.o
+[2022-02-18T07:46:10.450835 7110 ] Trying direct lookup
+[2022-02-18T07:46:10.451028 7110 ] Retrieved fa50c8imbmu9kfg0uedb4p8lcg03qr4ii from primary storage (/Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/f/a/50c8imbmu9kfg0uedb4p8lcg03qr4iiM)
+[2022-02-18T07:46:10.451085 7110 ] Looking for result key in /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/f/a/50c8imbmu9kfg0uedb4p8lcg03qr4iiM
+[2022-02-18T07:46:10.453579 7110 ] Got result key from manifest
+[2022-02-18T07:46:10.453610 7110 ] Retrieved 0935bem89jdaoep1p8fpd0be7nqo09vmu from primary storage (/Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/0/9/35bem89jdaoep1p8fpd0be7nqo09vmuR)
+[2022-02-18T07:46:10.453678 7110 ] Reading result /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/0/9/35bem89jdaoep1p8fpd0be7nqo09vmuR
+[2022-02-18T07:46:10.453740 7110 ] Reading embedded entry #0 .o (784 bytes)
+[2022-02-18T07:46:10.453750 7110 ] Writing to main.o
+[2022-02-18T07:46:10.453911 7110 ] Succeeded getting cached result
+[2022-02-18T07:46:10.453967 7110 ] Result: direct_cache_hit
+[2022-02-18T07:46:10.453976 7110 ] Result: primary_storage_hit
+[2022-02-18T07:46:10.454188 7110 ] lockfile_acquire: symlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/c/6/stats.lock: No such file or directory
+[2022-02-18T07:46:10.454351 7110 ] Acquired lock /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/c/6/stats.lock
+[2022-02-18T07:46:10.454818 7110 ] Releasing lock /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/c/6/stats.lock
+[2022-02-18T07:46:10.454865 7110 ] Unlink /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/c/6/stats.lock
+[2022-02-18T07:46:21.648624 7116 ] Failed to stat /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache: No such file or directory
+[2022-02-18T07:46:21.648670 7116 ] === CCACHE read_note.b5055d98+dirty STARTED =========================================
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) absolute_paths_in_stderr = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) base_dir = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (environment) cache_dir = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) compiler = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) compiler_check = mtime
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) compiler_type = auto
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) compression = true
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) compression_level = 0
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) cpp_extension = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) debug = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) debug_dir = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) depend_mode = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) direct_mode = true
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) disable = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) extra_files_to_hash = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) file_clone = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) hard_link = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) hash_dir = true
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) ignore_headers_in_manifest = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) ignore_options = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) inode_cache = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) keep_comments_cpp = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) limit_multiple = 0.8
+[2022-02-18T07:46:21.648670 7116 ] Config: (environment) log_file = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache.log
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) max_files = 0
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) max_size = 5.0G
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) namespace = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) path = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) pch_external_checksum = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) prefix_command = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) prefix_command_cpp = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) read_only = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) read_only_direct = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) recache = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) reshare = false
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) run_second_cpp = true
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) secondary_storage = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) sloppiness = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) stats = true
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) stats_log = 
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) temporary_dir = /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/ccache/tmp
+[2022-02-18T07:46:21.648670 7116 ] Config: (default) umask = 
+[2022-02-18T07:46:21.648935 7116 ] Command line: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/Debug/ccache clang -c /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c
+[2022-02-18T07:46:21.648967 7116 ] Hostname: xuzhongngdeMini
+[2022-02-18T07:46:21.648976 7116 ] Working directory: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/Debug
+[2022-02-18T07:46:21.648984 7116 ] Compiler type: clang
+[2022-02-18T07:46:21.649077 7116 ] Source file: /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c
+[2022-02-18T07:46:21.649089 7116 ] Object file: main.o
+[2022-02-18T07:46:21.649127 7116 ] Trying direct lookup
+[2022-02-18T07:46:21.649194 7116 ] No fa50c8imbmu9kfg0uedb4p8lcg03qr4ii in primary storage
+[2022-02-18T07:46:21.649665 7116 ] Running preprocessor
+[2022-02-18T07:46:21.649681 7116 ] Executing /usr/bin/clang -E /Users/xuzhongping/Desktop/Dev/myGithub/ccache/learn/simple_code/main.c

@@ -1,0 +1,2 @@
+dependencies: hiredis-1.0.2/dict.c hiredis-1.0.2/fmacros.h \
+  hiredis-1.0.2/alloc.h hiredis-1.0.2/dict.h
