@@ -1389,6 +1389,8 @@ option_should_be_ignored(const std::string& arg,
 // Update a hash sum with information specific to the direct and preprocessor
 // modes and calculate the result key. Returns the result key on success, and
 // if direct_mode is true also the manifest key.
+// 使用特定于直接和预处理模式的信息更新hash sum，并计算result key，如果成功返回result key，
+// 如果direct_mode是true，同时返回manifest key
 static nonstd::expected<
   std::pair<nonstd::optional<Digest>, nonstd::optional<Digest>>,
   Failure>

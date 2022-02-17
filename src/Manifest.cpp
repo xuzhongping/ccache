@@ -466,6 +466,7 @@ const uint8_t k_magic[4] = {'c', 'C', 'm', 'F'};
 const uint8_t k_version = 2;
 
 // Try to get the result key from a manifest file. Returns nullopt on failure.
+// 尝试从manifest文件获取result key，失败返回nullopt
 optional<Digest>
 get(const Context& ctx, const std::string& path)
 {
@@ -485,6 +486,7 @@ get(const Context& ctx, const std::string& path)
   std::unordered_map<std::string, Digest> hashed_files;
 
   // Check newest result first since it's a bit more likely to match.
+  // 从后往前检查检查最新的，因为最有可能匹配
   for (uint32_t i = mf->results.size(); i > 0; i--) {
     if (verify_result(
           ctx, *mf, mf->results[i - 1], stated_files, hashed_files)) {
